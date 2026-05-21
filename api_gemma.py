@@ -186,10 +186,10 @@ def semantically_equivalent(formula_a: str, formula_b: str):
                 f"  Error:        {exc}",
                 file=f,
             )
-            print(
-            f"Warning: could not compare formulas:\n"
-            f"  Error:        {exc}",
-            file=sys.stderr,
+        print(
+        f"Warning: could not compare formulas:\n"
+        f"  Error:        {exc}",
+        file=sys.stderr,
         )
         return None
 
