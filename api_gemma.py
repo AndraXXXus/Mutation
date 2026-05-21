@@ -247,10 +247,10 @@ for iii in [3,4,5]:
             dataset.append((ind,requirement, ground_truth, atomic_proposition))
 
     for ind, requirement, ground_truth, atomic_proposition in dataset:
-
+        client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
         if model == "google/gemma-4-31B-it":
-            client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
-            model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
+            if prompt == "BASIC":
+                model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
             if prompt == "ADARULE":
                 model_response = model_response.replace("So the final LTL translation is: ", "").replace(".FINISH", "").strip()
             if prompt == "ARTEMIS":    
