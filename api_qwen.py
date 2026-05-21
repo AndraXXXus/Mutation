@@ -174,11 +174,7 @@ def semantically_equivalent(formula_a: str, formula_b: str):
                     f"  Error:        {exc}",
                     file=f,
                 )
-            print(
-                f"Syntax error; excluding from accuracy:\n"
-                f"  Error:        {exc}",
-                file=sys.stderr,
-            )
+            
             return None
         with open(current_tempOut+"output_log.txt", "a", encoding="utf-8") as f:
             print(
@@ -186,11 +182,7 @@ def semantically_equivalent(formula_a: str, formula_b: str):
                 f"  Error:        {exc}",
                 file=f,
             )
-        print(
-        f"Warning: could not compare formulas:\n"
-        f"  Error:        {exc}",
-        file=sys.stderr,
-        )
+        
         return None
 
 
@@ -278,14 +270,7 @@ for iii in [3,4,5]:
                 f"  Equivalent:     {equivalent}\n",
                 file=f,  # <-- Redirects the output to your file
             )
-        print(
-            f"  Index: {ind}\n"
-            f"  Requirement: {requirement}\n"
-            f"  Ground Truth: {ground_truth}\n"
-            f"  Response:     {model_response}\n"
-            f"  Equivalent:     {equivalent}\n",
-            file=sys.stderr,
-        )
+        
     
         
         if equivalent is None:
@@ -295,14 +280,14 @@ for iii in [3,4,5]:
             correct += int(equivalent)
 
             if not equivalent:
-                rows.append(
-                    {   
-                        "Index": ind,
-                        "Requirement": requirement,
-                        "Ground Truth": ground_truth,
-                        "Response": model_response,
-                    }
-                )
+                # rows.append(
+                #     {   
+                #         "Index": ind,
+                #         "Requirement": requirement,
+                #         "Ground Truth": ground_truth,
+                #         "Response": model_response,
+                #     }
+                # )
 
                 with open("out/"+f"data_{model_filename}_{prompt}.csv", "a", newline="", encoding="utf-8") as g:
                     writer = csv.DictWriter(
@@ -327,6 +312,5 @@ for iii in [3,4,5]:
         with open(current_tempOut+"loggs_accuracy.csv", "a", newline="", encoding="utf-8") as g:
             print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})",file=g,)
             print(f"Syntax errors excluded: {syntax_errors}",file=g,)
-        print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})")
-        print(f"Syntax errors excluded: {syntax_errors}")
+        
             
