@@ -211,7 +211,7 @@ df = pd.read_csv(file_input, sep=';')
 df['Index'] = df.index
 #df = df[df["batch_id"] == 1]
 
-for iii in [3,4,5]:
+for iii in [3,4]:
     rows = []
     dataset = []
     parse_errors = 0
@@ -245,14 +245,17 @@ for iii in [3,4,5]:
 
         if ind not in index_set:
             dataset.append((ind,requirement, ground_truth, atomic_proposition))
-
+    print("start",len(dataset), dataset[0])
     for ind, requirement, ground_truth, atomic_proposition in dataset:
         client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
         if model == "google/gemma-4-31B-it":
             if prompt == "BASIC":
                 model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
+                print(model_response)
             if prompt == "ADARULE":
-                model_response = model_response.replace("So the final LTL translation is: ", "").replace(".FINISH", "").strip()
+                model_response = model_response.replace("So the final LTL translation is: ", "")
+                print(model_response)
+                model_response = model_response.replace(".FINISH", "").strip()
             if prompt == "ARTEMIS":    
                 model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
         elif model == "qwen":
