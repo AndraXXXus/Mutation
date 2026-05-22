@@ -277,6 +277,8 @@ for iii in [3,4,5]:
             )
         print(
             f"  Index: {ind}\n"
+            f"  Model: {model}\n"
+            f"  Prompt: {prompt}\n"
             f"  Requirement: {requirement}\n"
             f"  Ground Truth: {ground_truth}\n"
             f"  Response:     {model_response}\n"
