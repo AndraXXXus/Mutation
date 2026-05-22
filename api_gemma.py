@@ -224,7 +224,7 @@ for iii in [3,4]:
 
     if os.path.exists("out/"+f"/data_{model_filename}_{prompt}.csv"):
         try:
-            index_set = set(pd.read_csv(f"output/data_{model_filename}_{prompt}.csv", skiprows=1, header=None)['Index'].tolist())
+            index_set = set([str(x) for x in pd.read_csv(f"output/data_{model_filename}_{prompt}.csv", skiprows=1, header=None)['Index'].tolist()])
         except:
             index_set = set()
     else:
