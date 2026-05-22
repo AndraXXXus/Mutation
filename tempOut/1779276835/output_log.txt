@@ -1,0 +1,1430 @@
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
+Warning: could not compare formulas:
+  Error:        module 'spot' has no attribute 'formula'
