@@ -1,7 +1,7 @@
 from openai import OpenAI
 client = OpenAI(base_url="http://127.0.0.1:8000/v1",api_key="dummy",)
 # --- without thinking (fast) ---
-resp = client.chat.completions.create(model="Qwen/Qwen3.5-27B",messages=[{"role": "user", "content": "Write a sentence about LLMs"}],temperature=0.2,max_tokens=64)
+resp = client.chat.completions.create(model="Qwen/Qwen3.5-27B",messages=[{"role": "user", "content": "Write a sentence about LLMs"}],temperature=0.0,max_tokens=64)
 print("NO THINKING:")
 print(resp.choices[0].message.content)
 
@@ -67,10 +67,10 @@ The Outputs consist of:
 1. output_LTL
     
 Provide a list of the top 1 most likely translations (ordered by most likely first to least likely last) in the above output format for the following:
-{{
+
     'input_natural_language':{requirement},
     'atomic_propositions':{atomic_proposition}
-}}
+
 """
 
 ADARULE = """
@@ -207,11 +207,12 @@ import time
 
 
 
-df = pd.read_csv(file_input, sep=';')
-df['Index'] = df.index
+
 #df = df[df["batch_id"] == 1]
 
 for iii in [6,7,8]:
+    df = pd.read_csv(file_input, sep=';')
+    df['Index'] = df.index  
     rows = []
     dataset = []
     parse_errors = 0
@@ -224,7 +225,7 @@ for iii in [6,7,8]:
 
     if os.path.exists("out/"+f"/data_{model_filename}_{prompt}.csv"):
         try:
-            index_set = set(pd.read_csv(f"output/data_{model_filename}_{prompt}.csv", skiprows=1, header=None)['Index'].tolist())
+            index_set = set([str(x) for x in pd.read_csv(f"output/data_{model_filename}_{prompt}.csv", skiprows=1, header=None)['Index'].tolist()])
         except:
             index_set = set()
     else:
@@ -245,26 +246,21 @@ for iii in [6,7,8]:
 
         if ind not in index_set:
             dataset.append((ind,requirement, ground_truth, atomic_proposition))
-
+    print("start",len(dataset), dataset[0])
     for ind, requirement, ground_truth, atomic_proposition in dataset:
+        client = OpenAI(base_url="http://127.0.0.1:8000/v1",api_key="dummy",)
+        
+        if prompt == "BASIC":
+            model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
+            print(model_response)
+        if prompt == "ADARULE":
+            model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
+            print(model_response)
+            model_response = model_response.replace("So the final LTL translation is: ", "")
+            model_response = model_response.replace(".FINISH", "").strip()
+        if prompt == "ARTEMIS":    
+            model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
 
-        if model == "google/gemma-4-31B-it":
-            client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
-            model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
-            if prompt == "ADARULE":
-                model_response = model_response.replace("So the final LTL translation is: ", "").replace(".FINISH", "").strip()
-            if prompt == "ARTEMIS":    
-                model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
-        elif model == "Qwen/Qwen3.5-27B":
-            client = OpenAI(base_url="http://127.0.0.1:8000/v1",api_key="dummy",)
-            if prompt == "BASIC":
-                model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
-            if prompt == "ADARULE":
-                model_response = model_response.replace("So the final LTL translation is: ", "").replace(".FINISH", "").strip()
-            if prompt == "ARTEMIS":    
-                model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
-        elif model == "codellama":
-            model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
 
         equivalent = semantically_equivalent(ground_truth, model_response)
 
@@ -287,7 +283,6 @@ for iii in [6,7,8]:
             f"  Equivalent:     {equivalent}\n",
             file=sys.stderr,
         )
-    
         
         if equivalent is None:
             syntax_errors += 1
