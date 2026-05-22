@@ -1,0 +1,66 @@
+  Index: 7988
+  Requirement: If photo the collision on east_3rd_street ever holds, get_help must have held beforehand.
+  Ground Truth: F photo_collision_east_3rd_street -> (!photo_collision_east_3rd_street U (get_help & !photo_collision_east_3rd_street))
+  Response:     So the final LTL translation is: !photo_collision_east_3rd_street | F(get_help & F(photo_collision_east_3rd_street))
+  Equivalent:     None
+
+  Index: 7989
+  Requirement: Make sure that (prop_1) is equivalent to (prop_2), and also make sure (prop_3) is always true .
+  Ground Truth: (prop_1 <-> prop_2) & G prop_3
+  Response:     So the final LTL translation is: G((prop_1 <-> prop_2) & prop_3)
+  Equivalent:     None
+
+  Index: 7990
+  Requirement: Whenever photo the vehicle on west_3rd_avenue holds, photo the cyclist on east_8th_avenue holds exactly three steps later.
+  Ground Truth: G(photo_vehicle_west_3rd_avenue -> XXX photo_cyclist_east_8th_avenue)
+  Response:     So the final LTL translation is: G(photo_vehicle_west_3rd_avenue -> X(X(X(photo_cyclist_east_8th_avenue))))
+  Equivalent:     None
+
+  Index: 7991
+  Requirement: ( prop_1 ) or at some time ( prop_2 )
+  Ground Truth: prop_1 | F prop_2
+  Response:     So the final LTL translation is: prop_1 | F prop_2
+  Equivalent:     None
+
+  Index: 7992
+  Requirement: never drop apple and go_by waste bin
+  Ground Truth: go_by_waste_bin & G!drop_apple
+  Response:     So the final LTL translation is: G(!(drop_apple & go_by_waste_bin))
+  Equivalent:     None
+
+  Index: 7993
+  Requirement: ( prop_1 ) and at any time ( prop_2 )
+  Ground Truth: prop_1 & F prop_2
+  Response:     So the final LTL translation is: prop_1 & G(prop_2 )
+  Equivalent:     None
+
+  Index: 7994
+  Requirement: Collect trash can 4 from house 1 and place it in garbage dump 3
+  Ground Truth: F(house_1 & F(p_trash_can_4 & F(garbage_dump_3 & pd)))
+  Response:     So the final LTL translation is: F(pd house_1 & p_trash_can_4 & F(pd garbage_dump_3 & p_trash_can_4))
+  Equivalent:     None
+
+  Index: 7995
+  Requirement: at some time ( prop_1 ) and at any time ( prop_2 )
+  Ground Truth: F(prop_1 & F prop_2)
+  Response:     So the final LTL translation is: F(prop_1 ) & G(prop_2 )
+  Equivalent:     None
+
+  Index: 7996
+  Requirement: ( prop_1 ) and repeatedly ( prop_2 )
+  Ground Truth: prop_1 & GF prop_2
+  Response:     So the final LTL translation is: prop_1 & GF prop_2
+  Equivalent:     None
+
+  Index: 7997
+  Requirement: Continuously visit area 2 and take a picture each time
+  Ground Truth: GF(area_2 & photo)
+  Response:     So the final LTL translation is: G(area_2 -> F(photo))
+  Equivalent:     None
+
+  Index: 7998
+  Requirement: finally, the bridge closes, the semaphore is red and a motorbike catches fire
+  Ground Truth: F(bridge_closes & motorbike_catches_fire & semaphore_is_red)
+  Response:     So the final LTL translation is: F(bridge_closes & semaphore_is_red & motorbike_catches_fire)
+  Equivalent:     None
+
