@@ -199,7 +199,7 @@ prompts = ["BASIC", "ARTEMIS" , "ADARULE"]
 
 
 
-file_input="./Batch9/final_df.csv"
+file_input="./Batch9/final_df_downsampled.csv"
 model = "google/gemma-4-31B-it"
 
 
