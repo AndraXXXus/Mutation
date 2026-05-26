@@ -137,7 +137,7 @@ def ask_chatgpt(client: OpenAI, model: str, prompt: str, requirement: str, atomi
                     requirement=requirement,
                     atomic_proposition=atomic_proposition,
                 ) + INSTRUCTION
-    print(content)
+    
     response = client.chat.completions.create(
         model=model,
         temperature=0,
@@ -148,7 +148,8 @@ def ask_chatgpt(client: OpenAI, model: str, prompt: str, requirement: str, atomi
             }
         ],
     )
-
+    print(response)
+    print(normalize_formula(response.choices[0].message.content or ""))
     return normalize_formula(response.choices[0].message.content or "")
 
 
