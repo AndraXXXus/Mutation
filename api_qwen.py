@@ -36,7 +36,7 @@ Return EXACTLY one LTL formula as a single line.
 The output must be directly parseable as an LTL formula using the Spot API.
 """
 
- OpenAI(base_url="http://127.0.0.1:8000/v1",api_key="dummy",) = """
+BASIC = """
 You are a Linear Temporal Logic ( LTL ) Parser. Your task is to convert a given natural language statement to an LTL formula, using the provided mapping of natural language phrases to atomic propositions.
 
 LTL Symbols :
@@ -209,11 +209,12 @@ import time
 
 
 #df = df[df["batch_id"] == 1]
-print('start_test')
-resp = ask_chatgpt( OpenAI(base_url="http://127.0.0.1:8000/v1",api_key="dummy",) , model, "BASIC", 'If photo unsafe_person ever holds, photo gas_leak must have held beforehand.', ['photo_gas_leak', 'photo_unsafe_person'])
-print('got_resp')
+
+print('strating_test')
+resp = ask_chatgpt(client, model, "BASIC", 'If photo unsafe_person ever holds, photo gas_leak must have held beforehand.', ['photo_gas_leak', 'photo_unsafe_person'])
+print('resp_gotten')
 print(resp)
-print('printed_resp')
+print('resp_printed')
 
 for iii in [6,7,8]:
     df = pd.read_csv(file_input, sep=';')
