@@ -154,8 +154,7 @@ def ask_chatgpt(client: OpenAI, model: str, prompt: str, requirement: str, atomi
         }
         },
     )
-    print(response)
-    print(normalize_formula(response.choices[0].message.content or ""))
+
     return normalize_formula(response.choices[0].message.content or "")
 
 
@@ -219,11 +218,7 @@ import time
 
 #df = df[df["batch_id"] == 1]
 
-print('strating_test')
-resp = ask_chatgpt(client, model, "BASIC", 'If photo unsafe_person ever holds, photo gas_leak must have held beforehand.', ['photo_gas_leak', 'photo_unsafe_person'])
-print('resp_gotten')
-print(resp)
-print('resp_printed')
+
 
 for iii in [6,7,8]:
     df = pd.read_csv(file_input, sep=';')
