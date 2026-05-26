@@ -141,12 +141,18 @@ def ask_chatgpt(client: OpenAI, model: str, prompt: str, requirement: str, atomi
     response = client.chat.completions.create(
         model=model,
         temperature=0,
+        max_tokens=64,
         messages=[
             {
                 "role": "user",
                 "content": content,
             }
         ],
+        extra_body={
+        "chat_template_kwargs": {
+        "enable_thinking": False
+        }
+        },
     )
     print(response)
     print(normalize_formula(response.choices[0].message.content or ""))
