@@ -133,16 +133,18 @@ def normalize_formula(text: str) -> str:
 def ask_chatgpt(client: OpenAI, model: str, prompt: str, requirement: str, atomic_proposition: str) -> str:
 
     # --- without thinking (fast) ---
+    content = globals()[prompt].format(
+                    requirement=requirement,
+                    atomic_proposition=atomic_proposition,
+                ) + INSTRUCTION
+    print(content)
     response = client.chat.completions.create(
         model=model,
         temperature=0,
         messages=[
             {
                 "role": "user",
-                "content": globals()[prompt].format(
-                    requirement=requirement,
-                    atomic_proposition=atomic_proposition,
-                ) + INSTRUCTION,
+                "content": content,
             }
         ],
     )
