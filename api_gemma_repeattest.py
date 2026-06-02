@@ -302,7 +302,7 @@ for iii in [3,4,5]:
             with open("out_repeattest/"+f"data_{model_filename}_{prompt}.csv", "a", newline="", encoding="utf-8") as g:
                 writer = csv.DictWriter(
                     g,
-                    fieldnames=["Index", "Requirement", "Ground Truth", "Response", "Equivalent"],
+                    fieldnames=['PROMPTTYPE',"Index", "Requirement", "Ground Truth", "Response", "Equivalent"],
                 )
                 writer.writerows(rows)
             
