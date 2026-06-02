@@ -230,7 +230,7 @@ for iii in [3,4,5]:
         
 
 
-    df = df[df["batch_id"] == iii].sample(n=200, random_state=42)
+    df = df[df["batch_id"] == iii]
     for _, row in df.iterrows():
         ind = str(row.iloc[-1])
         requirement = str(row.iloc[0])
@@ -292,7 +292,7 @@ for iii in [3,4,5]:
         
 
         accuracy = correct / total if total else 0.0
-        print(f"{ind}",accuracy)
+        print(f"{ind}",accuracy, correct ,total)
         if 0.0 < accuracy < 1.0:
             with open(current_tempOut+"loggs_accuracy.csv", "a", newline="", encoding="utf-8") as g:
                 print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})",file=g,)
