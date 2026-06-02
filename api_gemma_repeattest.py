@@ -213,7 +213,7 @@ import time
 for iii in [3,4,5]:
     df = pd.read_csv(file_input, sep=';')
     df['Index'] = df.index  
-    rows = []
+    
     dataset = []
     
     prompt = prompts[(iii+1)%3]
@@ -230,7 +230,7 @@ for iii in [3,4,5]:
         
 
 
-    df = df[df["batch_id"] == iii]
+    df = df[df["batch_id"] == iii].head(100)
     for _, row in df.iterrows():
         ind = str(row.iloc[-1])
         requirement = str(row.iloc[0])
@@ -245,6 +245,7 @@ for iii in [3,4,5]:
         syntax_errors = 0
         total = 0
         correct = 0
+        rows = []
         for retake in range(10):
             client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
             
@@ -264,25 +265,6 @@ for iii in [3,4,5]:
 
             print(f"{ind}")
 
-            with open(current_tempOut+"output_print.txt", "a", encoding="utf-8") as f:
-                print(
-                    f"  Index: {ind}\n"
-                    f"  Requirement: {requirement}\n"
-                    f"  Ground Truth: {ground_truth}\n"
-                    f"  Response:     {model_response}\n"
-                    f"  Equivalent:     {equivalent}\n",
-                    file=f,  # <-- Redirects the output to your file
-                )
-            print(
-                f"  Index: {ind}\n"
-                f"  Model: {model}\n"
-                f"  Prompt: {prompt}\n"
-                f"  Requirement: {requirement}\n"
-                f"  Ground Truth: {ground_truth}\n"
-                f"  Response:     {model_response}\n"
-                f"  Equivalent:     {equivalent}\n",
-                file=sys.stderr,
-            )
             
             if equivalent is None:
                 syntax_errors += 1
@@ -290,42 +272,16 @@ for iii in [3,4,5]:
                 total += 1
                 correct += int(equivalent)
 
-                if not equivalent:
-                    # rows.append(
-                    #     {   
-                    #         "Index": ind,
-                    #         "Requirement": requirement,
-                    #         "Ground Truth": ground_truth,
-                    #         "Response": model_response,
-                    #     }
-                    # )
-
-                    with open("out_repeattest/"+f"data_{model_filename}_{prompt}.csv", "a", newline="", encoding="utf-8") as g:
-                        writer = csv.DictWriter(
-                            g,
-                            fieldnames=["Index", "Requirement", "Ground Truth", "Response", "Equivalent"],
-                        )
-                        writer.writerows([{   
-                            "Index": ind,
-                            "Requirement": requirement,
-                            "Ground Truth": ground_truth,
-                            "Response": model_response,
-                            "Equivalent": "False"
-                        }])
-
-                else:
-                    with open("out_repeattest/"+f"data_{model_filename}_{prompt}.csv", "a", newline="", encoding="utf-8") as g:
-                        writer = csv.DictWriter(
-                            g,
-                            fieldnames=["Index", "Requirement", "Ground Truth", "Response", "Equivalent"],
-                        )
-                        writer.writerows([{   
-                            "Index": ind,
-                            "Requirement": requirement,
-                            "Ground Truth": ground_truth,
-                            "Response": model_response,
-                            "Equivalent": "True"
-                        }])
+            rows.append(
+                    {   
+                        "Index": ind,
+                        "Requirement": requirement,
+                        "Ground Truth": ground_truth,
+                        "Response": model_response,
+                        "Equivalent": equivalent
+                    }
+                )
+                    
 
 
 
@@ -335,9 +291,16 @@ for iii in [3,4,5]:
         
 
         accuracy = correct / total if total else 0.0
-        with open(current_tempOut+"loggs_accuracy.csv", "a", newline="", encoding="utf-8") as g:
-            print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})",file=g,)
-            print(f"Syntax errors excluded: {syntax_errors}",file=g,)
-        print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})")
-        print(f"Syntax errors excluded: {syntax_errors}")
+        if 0 < accuracy < 1:
+            with open(current_tempOut+"loggs_accuracy.csv", "a", newline="", encoding="utf-8") as g:
+                print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})",file=g,)
+                print(f"Syntax errors excluded: {syntax_errors}",file=g,)
+            print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})")
+            print(f"Syntax errors excluded: {syntax_errors}")
+            with open("out_repeattest/"+f"data_{model_filename}_{prompt}.csv", "a", newline="", encoding="utf-8") as g:
+                writer = csv.DictWriter(
+                    g,
+                    fieldnames=["Index", "Requirement", "Ground Truth", "Response", "Equivalent"],
+                )
+                writer.writerows(rows)
             
