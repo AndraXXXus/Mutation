@@ -252,10 +252,10 @@ for iii in [3,4,5]:
             
             if prompt == "BASIC":
                 model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
-                print(model_response)
+               
             if prompt == "ADARULE":
                 model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
-                print(model_response)
+                
                 model_response = model_response.replace("So the final LTL translation is: ", "")
                 model_response = model_response.replace(".FINISH", "").strip()
             if prompt == "ARTEMIS":    
