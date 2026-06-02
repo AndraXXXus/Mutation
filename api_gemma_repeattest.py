@@ -246,7 +246,6 @@ for iii in [3,4,5]:
         total = 0
         correct = 0
         rows = []
-        print(f"{ind}")
         for retake in range(10):
             client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
             
@@ -293,7 +292,8 @@ for iii in [3,4,5]:
         
 
         accuracy = correct / total if total else 0.0
-        if 0 < accuracy < 1:
+        print(f"{ind}",accuracy)
+        if 0.0 < accuracy < 1.0:
             with open(current_tempOut+"loggs_accuracy.csv", "a", newline="", encoding="utf-8") as g:
                 print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})",file=g,)
                 print(f"Syntax errors excluded: {syntax_errors}",file=g,)
