@@ -246,6 +246,7 @@ for iii in [3,4,5]:
         total = 0
         correct = 0
         rows = []
+        print(f"{ind}")
         for retake in range(10):
             client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
             
@@ -263,7 +264,7 @@ for iii in [3,4,5]:
 
             equivalent = semantically_equivalent(ground_truth, model_response)
 
-            print(f"{ind}")
+            
 
             
             if equivalent is None:
