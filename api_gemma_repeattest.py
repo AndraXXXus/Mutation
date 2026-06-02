@@ -230,7 +230,7 @@ for iii in [3,4,5]:
         
 
 
-    df = df[df["batch_id"] == iii].head(100)
+    df = df[df["batch_id"] == iii].sample(n=200, random_state=42)
     for _, row in df.iterrows():
         ind = str(row.iloc[-1])
         requirement = str(row.iloc[0])
