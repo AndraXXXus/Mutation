@@ -1,14 +1,4 @@
 Index,Requirement,Ground Truth,Response,Equivalent
-3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(landmark_9)),True
-3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
-3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
-3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
-3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
-3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
-3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
-3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
-3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
-3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
 ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(landmark_9)),True
 ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
 ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
