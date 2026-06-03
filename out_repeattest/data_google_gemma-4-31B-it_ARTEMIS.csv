@@ -1,0 +1,51 @@
+Index,Requirement,Ground Truth,Response,Equivalent
+3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(landmark_9)),True
+3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(landmark_9)),True
+ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3059,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3876,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> G(!(train_stops | semaphore_is_red))),True
+ARTEMIS,3876,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3876,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3876,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3876,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3876,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3876,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3876,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3876,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3876,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3891,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (G ! avoid_inactive_flood),True
+ARTEMIS,3891,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (GF avoid_inactive_flood),False
+ARTEMIS,3891,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (GF avoid_inactive_flood),False
+ARTEMIS,3891,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (GF avoid_inactive_flood),False
+ARTEMIS,3891,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (GF avoid_inactive_flood),False
+ARTEMIS,3891,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (GF avoid_inactive_flood),False
+ARTEMIS,3891,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (GF avoid_inactive_flood),False
+ARTEMIS,3891,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (GF avoid_inactive_flood),False
+ARTEMIS,3891,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (GF avoid_inactive_flood),False
+ARTEMIS,3891,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (GF avoid_inactive_flood),False
+ARTEMIS,10440,Please (prop_1),F prop_1,prop_1,False
+ARTEMIS,10440,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10440,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10440,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10440,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10440,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10440,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10440,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10440,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10440,Please (prop_1),F prop_1,F prop_1,True
