@@ -1,0 +1,11 @@
+PROMPTTYPE,Index,Requirement,Ground Truth,Response,Equivalent
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U F secure_pear,True
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
