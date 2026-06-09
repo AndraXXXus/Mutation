@@ -135,7 +135,7 @@ def ask_chatgpt(client: OpenAI, model: str, prompt: str, requirement: str, atomi
     # --- without thinking (fast) ---
     response = client.chat.completions.create(
         model=model,
-        temperature=0.1,
+        temperature=temp,
         messages=[
             {
                 "role": "user",
@@ -206,7 +206,7 @@ model = "google/gemma-4-31B-it"
 import time
 
 
-
+temp = 0.2
 
 #df = df[df["batch_id"] == 1]
 
@@ -220,7 +220,7 @@ for iii in [3,4,5]:
     model_filename = model.replace("/","_")
     index_set = set()
 
-    output_file = "out_repeattest/"+f"/data_{model_filename}_{prompt}_temp10.csv"
+    output_file = "out_repeattest/"+f"/data_{model_filename}_{prompt}_temp{int(temp*100)}.csv"
 
     if not os.path.exists(output_file):
         with open(output_file, "w", newline="", encoding="utf-8") as g:
