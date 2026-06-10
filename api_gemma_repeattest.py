@@ -206,7 +206,7 @@ model = "google/gemma-4-31B-it"
 import time
 
 
-temp = 0.2
+temp = 0.3
 
 #df = df[df["batch_id"] == 1]
 
@@ -295,7 +295,7 @@ for iii in [3,4,5]:
 
         accuracy = correct / total if total else 0.0
         print(f"{ind}",accuracy, correct ,total)
-        if 0.0 < accuracy < 1.0:
+        if len(set(rows)) > 1:
             with open(current_tempOut+"loggs_accuracy.csv", "a", newline="", encoding="utf-8") as g:
                 print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})",file=g,)
                 print(f"Syntax errors excluded: {syntax_errors}",file=g,)
