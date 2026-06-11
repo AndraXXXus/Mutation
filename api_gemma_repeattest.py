@@ -295,8 +295,8 @@ for temp in [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
             
 
             accuracy = correct / total if total else 0.0
-            print(f"{ind}",accuracy, correct ,total)ű
-            
+            print(f"{ind}",accuracy, correct ,total)
+
             unique_rows = []
             for x in rows:
                 if x not in unique_rows:
