@@ -206,105 +206,106 @@ model = "google/gemma-4-31B-it"
 import time
 
 
-temp = 0.3
 
-#df = df[df["batch_id"] == 1]
+for temp in [0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
+    print(f"Temperature: {temp}")
 
-for iii in [3,4,5]:
-    df = pd.read_csv(file_input, sep=';')
-    df['Index'] = df.index  
-    
-    dataset = []
-    
-    prompt = prompts[(iii+1)%3]
-    model_filename = model.replace("/","_")
-    index_set = set()
 
-    output_file = "out_repeattest/"+f"/data_{model_filename}_{prompt}_temp{int(temp*100)}.csv"
-
-    if not os.path.exists(output_file):
-        with open(output_file, "w", newline="", encoding="utf-8") as g:
-            writer = csv.DictWriter(
-                g,
-                fieldnames=['PROMPTTYPE',"Index", "Requirement", "Ground Truth", "Response", "Equivalent"],
-            )
-            writer.writeheader()
+    for iii in [3,4,5]:
+        df = pd.read_csv(file_input, sep=';')
+        df['Index'] = df.index  
         
-
-
-    df = df[df["batch_id"] == iii]
-    for _, row in df.iterrows():
-        ind = str(row.iloc[-1])
-        requirement = str(row.iloc[0])
-        ground_truth = str(row.iloc[2]).strip()
-        atomic_proposition = str(row.iloc[3]).strip()
-
-        dataset.append((ind,requirement, ground_truth, atomic_proposition))
-
-    print("start",len(dataset), dataset[0])
-    for ind, requirement, ground_truth, atomic_proposition in dataset:
-        parse_errors = 0
-        syntax_errors = 0
-        total = 0
-        correct = 0
-        rows = []
-        for retake in range(10):
-            client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
-            
-            if prompt == "BASIC":
-                model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
-               
-            if prompt == "ADARULE":
-                model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
-                
-                model_response = model_response.replace("So the final LTL translation is: ", "")
-                model_response = model_response.replace(".FINISH", "").strip()
-            if prompt == "ARTEMIS":    
-                model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
-
-
-            equivalent = semantically_equivalent(ground_truth, model_response)
-
-            
-
-            
-            if equivalent is None:
-                syntax_errors += 1
-            else:
-                total += 1
-                correct += int(equivalent)
-
-            rows.append(
-                    {   
-                        'PROMPTTYPE': prompt,
-                        "Index": ind,
-                        "Requirement": requirement,
-                        "Ground Truth": ground_truth,
-                        "Response": model_response,
-                        "Equivalent": equivalent
-                    }
-                )
-                    
-
-
-
-
-
-
+        dataset = []
         
+        prompt = prompts[(iii+1)%3]
+        model_filename = model.replace("/","_")
+        index_set = set()
 
-        accuracy = correct / total if total else 0.0
-        print(f"{ind}",accuracy, correct ,total)
-        if len(rows) > 1:
-            with open(current_tempOut+"loggs_accuracy.csv", "a", newline="", encoding="utf-8") as g:
-                print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})",file=g,)
-                print(f"Syntax errors excluded: {syntax_errors}",file=g,)
-            print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})")
-            print(f"Syntax errors excluded: {syntax_errors}")
-            with open(output_file, "a", newline="", encoding="utf-8") as g:
+        output_file = "out_repeattest/"+f"/data_{model_filename}_{prompt}_temp{int(temp*100)}.csv"
+
+        if not os.path.exists(output_file):
+            with open(output_file, "w", newline="", encoding="utf-8") as g:
                 writer = csv.DictWriter(
                     g,
                     fieldnames=['PROMPTTYPE',"Index", "Requirement", "Ground Truth", "Response", "Equivalent"],
                 )
-                writer.writerows(rows)
+                writer.writeheader()
+            
+
+
+        df = df[df["batch_id"] == iii]
+        for _, row in df.iterrows():
+            ind = str(row.iloc[-1])
+            requirement = str(row.iloc[0])
+            ground_truth = str(row.iloc[2]).strip()
+            atomic_proposition = str(row.iloc[3]).strip()
+
+            dataset.append((ind,requirement, ground_truth, atomic_proposition))
+
+        print("start",len(dataset), dataset[0])
+        for ind, requirement, ground_truth, atomic_proposition in dataset:
+            parse_errors = 0
+            syntax_errors = 0
+            total = 0
+            correct = 0
+            rows = []
+            for retake in range(10):
+                client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
+                
+                if prompt == "BASIC":
+                    model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
+                
+                if prompt == "ADARULE":
+                    model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
+                    
+                    model_response = model_response.replace("So the final LTL translation is: ", "")
+                    model_response = model_response.replace(".FINISH", "").strip()
+                if prompt == "ARTEMIS":    
+                    model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition)
+
+
+                equivalent = semantically_equivalent(ground_truth, model_response)
+
+                
+
+                
+                if equivalent is None:
+                    syntax_errors += 1
+                else:
+                    total += 1
+                    correct += int(equivalent)
+
+                rows.append(
+                        {   
+                            'PROMPTTYPE': prompt,
+                            "Index": ind,
+                            "Requirement": requirement,
+                            "Ground Truth": ground_truth,
+                            "Response": model_response,
+                            "Equivalent": equivalent
+                        }
+                    )
+                        
+
+
+
+
+
+
+            
+
+            accuracy = correct / total if total else 0.0
+            print(f"{ind}",accuracy, correct ,total)
+            if len(rows) > 1:
+                with open(current_tempOut+"loggs_accuracy.csv", "a", newline="", encoding="utf-8") as g:
+                    print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})",file=g,)
+                    print(f"Syntax errors excluded: {syntax_errors}",file=g,)
+                print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})")
+                print(f"Syntax errors excluded: {syntax_errors}")
+                with open(output_file, "a", newline="", encoding="utf-8") as g:
+                    writer = csv.DictWriter(
+                        g,
+                        fieldnames=['PROMPTTYPE',"Index", "Requirement", "Ground Truth", "Response", "Equivalent"],
+                    )
+                    writer.writerows(rows)
             
