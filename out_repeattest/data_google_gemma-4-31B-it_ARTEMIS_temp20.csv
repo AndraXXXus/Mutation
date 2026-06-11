@@ -1,0 +1,171 @@
+PROMPTTYPE,Index,Requirement,Ground Truth,Response,Equivalent
+ARTEMIS,3055,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(landmark_9)),True
+ARTEMIS,3055,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(landmark_9)),True
+ARTEMIS,3055,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3055,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3055,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3055,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3055,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(landmark_9)),True
+ARTEMIS,3055,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(landmark_9)),True
+ARTEMIS,3055,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(landmark_9)),True
+ARTEMIS,3055,Eventually (photo of landmark_9 and stay at landmark_9 permanently),F(landmark_9 & photo & G landmark_9),F(photo & landmark_9 & G(photo & landmark_9)),False
+ARTEMIS,3231,"Go to kitchen 2 to grab bottle 3, staying away from living room 1",F(kitchen_2 & p_bottle_3) & G!living_room_1,(!living_room_1) U (kitchen_2 & p_bottle_3),False
+ARTEMIS,3231,"Go to kitchen 2 to grab bottle 3, staying away from living room 1",F(kitchen_2 & p_bottle_3) & G!living_room_1,(!living_room_1) U (kitchen_2 & p_bottle_3),False
+ARTEMIS,3231,"Go to kitchen 2 to grab bottle 3, staying away from living room 1",F(kitchen_2 & p_bottle_3) & G!living_room_1,(!living_room_1) U (kitchen_2 & p_bottle_3),False
+ARTEMIS,3231,"Go to kitchen 2 to grab bottle 3, staying away from living room 1",F(kitchen_2 & p_bottle_3) & G!living_room_1,(!living_room_1) U (kitchen_2 & p_bottle_3),False
+ARTEMIS,3231,"Go to kitchen 2 to grab bottle 3, staying away from living room 1",F(kitchen_2 & p_bottle_3) & G!living_room_1,(!living_room_1) U (kitchen_2 & p_bottle_3),False
+ARTEMIS,3231,"Go to kitchen 2 to grab bottle 3, staying away from living room 1",F(kitchen_2 & p_bottle_3) & G!living_room_1,(!living_room_1) U (kitchen_2 & p_bottle_3),False
+ARTEMIS,3231,"Go to kitchen 2 to grab bottle 3, staying away from living room 1",F(kitchen_2 & p_bottle_3) & G!living_room_1,(!living_room_1) U (kitchen_2 & p_bottle_3),False
+ARTEMIS,3231,"Go to kitchen 2 to grab bottle 3, staying away from living room 1",F(kitchen_2 & p_bottle_3) & G!living_room_1,(!living_room_1) U (kitchen_2 & p_bottle_3),False
+ARTEMIS,3231,"Go to kitchen 2 to grab bottle 3, staying away from living room 1",F(kitchen_2 & p_bottle_3) & G!living_room_1,F(kitchen_2 & p_bottle_3) & G(!living_room_1),True
+ARTEMIS,3231,"Go to kitchen 2 to grab bottle 3, staying away from living room 1",F(kitchen_2 & p_bottle_3) & G!living_room_1,(!living_room_1) U (kitchen_2 & p_bottle_3),False
+ARTEMIS,3391,if the escalator moves and the bar is closing then all the time a manager handles requests or a table is old,G((bar_is_closing & escalator_moves) -> G(manager_handles_requests | table_is_old)),(escalator_moves & bar_is_closing) -> G(manager_handles_requests | table_is_old),False
+ARTEMIS,3391,if the escalator moves and the bar is closing then all the time a manager handles requests or a table is old,G((bar_is_closing & escalator_moves) -> G(manager_handles_requests | table_is_old)),G((escalator_moves & bar_is_closing) -> G(manager_handles_requests | table_is_old)),True
+ARTEMIS,3391,if the escalator moves and the bar is closing then all the time a manager handles requests or a table is old,G((bar_is_closing & escalator_moves) -> G(manager_handles_requests | table_is_old)),G((escalator_moves & bar_is_closing) -> G(manager_handles_requests | table_is_old)),True
+ARTEMIS,3391,if the escalator moves and the bar is closing then all the time a manager handles requests or a table is old,G((bar_is_closing & escalator_moves) -> G(manager_handles_requests | table_is_old)),G((escalator_moves & bar_is_closing) -> G(manager_handles_requests | table_is_old)),True
+ARTEMIS,3391,if the escalator moves and the bar is closing then all the time a manager handles requests or a table is old,G((bar_is_closing & escalator_moves) -> G(manager_handles_requests | table_is_old)),(escalator_moves & bar_is_closing) -> G(manager_handles_requests | table_is_old),False
+ARTEMIS,3391,if the escalator moves and the bar is closing then all the time a manager handles requests or a table is old,G((bar_is_closing & escalator_moves) -> G(manager_handles_requests | table_is_old)),(escalator_moves & bar_is_closing) -> G(manager_handles_requests | table_is_old),False
+ARTEMIS,3391,if the escalator moves and the bar is closing then all the time a manager handles requests or a table is old,G((bar_is_closing & escalator_moves) -> G(manager_handles_requests | table_is_old)),(escalator_moves & bar_is_closing) -> G(manager_handles_requests | table_is_old),False
+ARTEMIS,3391,if the escalator moves and the bar is closing then all the time a manager handles requests or a table is old,G((bar_is_closing & escalator_moves) -> G(manager_handles_requests | table_is_old)),(escalator_moves & bar_is_closing) -> G(manager_handles_requests | table_is_old),False
+ARTEMIS,3391,if the escalator moves and the bar is closing then all the time a manager handles requests or a table is old,G((bar_is_closing & escalator_moves) -> G(manager_handles_requests | table_is_old)),(escalator_moves & bar_is_closing) -> G(manager_handles_requests | table_is_old),False
+ARTEMIS,3391,if the escalator moves and the bar is closing then all the time a manager handles requests or a table is old,G((bar_is_closing & escalator_moves) -> G(manager_handles_requests | table_is_old)),(escalator_moves & bar_is_closing) -> G(manager_handles_requests | table_is_old),False
+ARTEMIS,3570,grab_hold pear or never drop orange,grab_hold_pear | G!drop_orange,F grab_hold_pear | G !drop_orange,False
+ARTEMIS,3570,grab_hold pear or never drop orange,grab_hold_pear | G!drop_orange,grab_hold_pear | G(!drop_orange),True
+ARTEMIS,3570,grab_hold pear or never drop orange,grab_hold_pear | G!drop_orange,grab_hold_pear | G(!drop_orange),True
+ARTEMIS,3570,grab_hold pear or never drop orange,grab_hold_pear | G!drop_orange,grab_hold_pear | G(!drop_orange),True
+ARTEMIS,3570,grab_hold pear or never drop orange,grab_hold_pear | G!drop_orange,grab_hold_pear | G(!drop_orange),True
+ARTEMIS,3570,grab_hold pear or never drop orange,grab_hold_pear | G!drop_orange,grab_hold_pear | G(!drop_orange),True
+ARTEMIS,3570,grab_hold pear or never drop orange,grab_hold_pear | G!drop_orange,grab_hold_pear | G(!drop_orange),True
+ARTEMIS,3570,grab_hold pear or never drop orange,grab_hold_pear | G!drop_orange,grab_hold_pear | G(!drop_orange),True
+ARTEMIS,3570,grab_hold pear or never drop orange,grab_hold_pear | G!drop_orange,grab_hold_pear | G(!drop_orange),True
+ARTEMIS,3570,grab_hold pear or never drop orange,grab_hold_pear | G!drop_orange,grab_hold_pear | G(!drop_orange),True
+ARTEMIS,3676,every time the train derails then it will happen that both the semaphore is red and the sensor retrieves data,G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),True
+ARTEMIS,3676,every time the train derails then it will happen that both the semaphore is red and the sensor retrieves data,G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),G(train_derails -> (semaphore_is_red & sensor_retrieves_data)),False
+ARTEMIS,3676,every time the train derails then it will happen that both the semaphore is red and the sensor retrieves data,G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),G(train_derails -> (semaphore_is_red & sensor_retrieves_data)),False
+ARTEMIS,3676,every time the train derails then it will happen that both the semaphore is red and the sensor retrieves data,G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),True
+ARTEMIS,3676,every time the train derails then it will happen that both the semaphore is red and the sensor retrieves data,G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),True
+ARTEMIS,3676,every time the train derails then it will happen that both the semaphore is red and the sensor retrieves data,G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),G(train_derails -> (semaphore_is_red & sensor_retrieves_data)),False
+ARTEMIS,3676,every time the train derails then it will happen that both the semaphore is red and the sensor retrieves data,G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),G(train_derails -> (semaphore_is_red & sensor_retrieves_data)),False
+ARTEMIS,3676,every time the train derails then it will happen that both the semaphore is red and the sensor retrieves data,G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),True
+ARTEMIS,3676,every time the train derails then it will happen that both the semaphore is red and the sensor retrieves data,G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),G(train_derails -> (semaphore_is_red & sensor_retrieves_data)),False
+ARTEMIS,3676,every time the train derails then it will happen that both the semaphore is red and the sensor retrieves data,G(train_derails -> F(semaphore_is_red & sensor_retrieves_data)),G(train_derails -> (semaphore_is_red & sensor_retrieves_data)),False
+ARTEMIS,3761,Remain in street 4 until you take a picture of house 1,street_4 U (house_1 & photo),street_4 U photo,False
+ARTEMIS,3761,Remain in street 4 until you take a picture of house 1,street_4 U (house_1 & photo),street_4 U photo,False
+ARTEMIS,3761,Remain in street 4 until you take a picture of house 1,street_4 U (house_1 & photo),street_4 U (photo & house_1),True
+ARTEMIS,3761,Remain in street 4 until you take a picture of house 1,street_4 U (house_1 & photo),street_4 U photo,False
+ARTEMIS,3761,Remain in street 4 until you take a picture of house 1,street_4 U (house_1 & photo),street_4 U (photo & house_1),True
+ARTEMIS,3761,Remain in street 4 until you take a picture of house 1,street_4 U (house_1 & photo),street_4 U photo,False
+ARTEMIS,3761,Remain in street 4 until you take a picture of house 1,street_4 U (house_1 & photo),street_4 U photo,False
+ARTEMIS,3761,Remain in street 4 until you take a picture of house 1,street_4 U (house_1 & photo),street_4 U (photo & house_1),True
+ARTEMIS,3761,Remain in street 4 until you take a picture of house 1,street_4 U (house_1 & photo),street_4 U (photo & house_1),True
+ARTEMIS,3761,Remain in street 4 until you take a picture of house 1,street_4 U (house_1 & photo),street_4 U (photo & house_1),True
+ARTEMIS,3811,when possible go_to house or at some time get_close flag,F go_to_house | F get_close_flag,GF(go_to_house) | F(get_close_flag),False
+ARTEMIS,3811,when possible go_to house or at some time get_close flag,F go_to_house | F get_close_flag,F(go_to_house | get_close_flag),True
+ARTEMIS,3811,when possible go_to house or at some time get_close flag,F go_to_house | F get_close_flag,F(go_to_house | get_close_flag),True
+ARTEMIS,3811,when possible go_to house or at some time get_close flag,F go_to_house | F get_close_flag,GF(go_to_house) | F(get_close_flag),False
+ARTEMIS,3811,when possible go_to house or at some time get_close flag,F go_to_house | F get_close_flag,GF(go_to_house) | F(get_close_flag),False
+ARTEMIS,3811,when possible go_to house or at some time get_close flag,F go_to_house | F get_close_flag,F(go_to_house | get_close_flag),True
+ARTEMIS,3811,when possible go_to house or at some time get_close flag,F go_to_house | F get_close_flag,GF(go_to_house) | F(get_close_flag),False
+ARTEMIS,3811,when possible go_to house or at some time get_close flag,F go_to_house | F get_close_flag,GF(go_to_house) | F(get_close_flag),False
+ARTEMIS,3811,when possible go_to house or at some time get_close flag,F go_to_house | F get_close_flag,F(go_to_house | get_close_flag),True
+ARTEMIS,3811,when possible go_to house or at some time get_close flag,F go_to_house | F get_close_flag,GF(go_to_house) | F(get_close_flag),False
+ARTEMIS,3828,Go to street 5 and stay away from parking lot 2,F street_5 & G!parking_lot_2,F(street_5) & G(!parking_lot_2),True
+ARTEMIS,3828,Go to street 5 and stay away from parking lot 2,F street_5 & G!parking_lot_2,F(street_5) & G(!parking_lot_2),True
+ARTEMIS,3828,Go to street 5 and stay away from parking lot 2,F street_5 & G!parking_lot_2,F(street_5) & G(!parking_lot_2),True
+ARTEMIS,3828,Go to street 5 and stay away from parking lot 2,F street_5 & G!parking_lot_2,F(street_5 & G(!parking_lot_2)),False
+ARTEMIS,3828,Go to street 5 and stay away from parking lot 2,F street_5 & G!parking_lot_2,F(street_5) & G(!parking_lot_2),True
+ARTEMIS,3828,Go to street 5 and stay away from parking lot 2,F street_5 & G!parking_lot_2,F(street_5) & G(!parking_lot_2),True
+ARTEMIS,3828,Go to street 5 and stay away from parking lot 2,F street_5 & G!parking_lot_2,F(street_5) & G(!parking_lot_2),True
+ARTEMIS,3828,Go to street 5 and stay away from parking lot 2,F street_5 & G!parking_lot_2,F(street_5) & G(!parking_lot_2),True
+ARTEMIS,3828,Go to street 5 and stay away from parking lot 2,F street_5 & G!parking_lot_2,F(street_5) & G(!parking_lot_2),True
+ARTEMIS,3828,Go to street 5 and stay away from parking lot 2,F street_5 & G!parking_lot_2,F(street_5) & G(!parking_lot_2),True
+ARTEMIS,3836,move to the blue_room but don t go through the yellow_room,F blue_room & G!yellow_room,F(blue_room) & G(!yellow_room),True
+ARTEMIS,3836,move to the blue_room but don t go through the yellow_room,F blue_room & G!yellow_room,F(blue_room) & G(!yellow_room),True
+ARTEMIS,3836,move to the blue_room but don t go through the yellow_room,F blue_room & G!yellow_room,F(blue_room) & (!yellow_room U blue_room),False
+ARTEMIS,3836,move to the blue_room but don t go through the yellow_room,F blue_room & G!yellow_room,F(blue_room) & G(!yellow_room),True
+ARTEMIS,3836,move to the blue_room but don t go through the yellow_room,F blue_room & G!yellow_room,F(blue_room) & G(!yellow_room),True
+ARTEMIS,3836,move to the blue_room but don t go through the yellow_room,F blue_room & G!yellow_room,F(blue_room) & G(!yellow_room),True
+ARTEMIS,3836,move to the blue_room but don t go through the yellow_room,F blue_room & G!yellow_room,F(blue_room) & G(!yellow_room),True
+ARTEMIS,3836,move to the blue_room but don t go through the yellow_room,F blue_room & G!yellow_room,F(blue_room) & (!yellow_room U blue_room),False
+ARTEMIS,3836,move to the blue_room but don t go through the yellow_room,F blue_room & G!yellow_room,F(blue_room) & G(!yellow_room),True
+ARTEMIS,3836,move to the blue_room but don t go through the yellow_room,F blue_room & G!yellow_room,F(blue_room) & G(!yellow_room),True
+ARTEMIS,3838,go from the blue room to the red_room then push the yellow object from the red_room into the green_room,F(red_room & F green_room),F(red_room & F(green_room)),True
+ARTEMIS,3838,go from the blue room to the red_room then push the yellow object from the red_room into the green_room,F(red_room & F green_room),F(blue_room & F(red_room & F(push_yellow_object_red_to_green))),False
+ARTEMIS,3838,go from the blue room to the red_room then push the yellow object from the red_room into the green_room,F(red_room & F green_room),F(red_room & F(green_room)),True
+ARTEMIS,3838,go from the blue room to the red_room then push the yellow object from the red_room into the green_room,F(red_room & F green_room),F(blue_room & F(red_room & F(push_yellow_object_red_to_green))),False
+ARTEMIS,3838,go from the blue room to the red_room then push the yellow object from the red_room into the green_room,F(red_room & F green_room),F(red_room & F(green_room)),True
+ARTEMIS,3838,go from the blue room to the red_room then push the yellow object from the red_room into the green_room,F(red_room & F green_room),F(red_room & F(green_room)),True
+ARTEMIS,3838,go from the blue room to the red_room then push the yellow object from the red_room into the green_room,F(red_room & F green_room),F(blue_room & F(red_room & F(push_yellow_object_red_to_green))),False
+ARTEMIS,3838,go from the blue room to the red_room then push the yellow object from the red_room into the green_room,F(red_room & F green_room),F(red_room & F(green_room)),True
+ARTEMIS,3838,go from the blue room to the red_room then push the yellow object from the red_room into the green_room,F(red_room & F green_room),F(blue_room & F(red_room & F(push_yellow_object_red_to_green))),False
+ARTEMIS,3838,go from the blue room to the red_room then push the yellow object from the red_room into the green_room,F(red_room & F green_room),F(red_room & F(green_room)),True
+ARTEMIS,3869,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> ! (train_stops | semaphore_is_red)),False
+ARTEMIS,3869,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3869,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3869,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3869,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> G(!(train_stops | semaphore_is_red))),True
+ARTEMIS,3869,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3869,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3869,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> G(!(train_stops | semaphore_is_red))),True
+ARTEMIS,3869,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> !(train_stops | semaphore_is_red)),False
+ARTEMIS,3869,if the sensor captures data or the table has been moved then under no circumstances a train stops or a semaphore is red,G((sensor_captures_data | table_has_been_moved) -> G!(semaphore_is_red | train_stops)),G((sensor_captures_data | table_has_been_moved) -> ! (train_stops | semaphore_is_red)),False
+ARTEMIS,3884,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (G ! avoid_inactive_flood),True
+ARTEMIS,3884,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (GF avoid_inactive_flood),False
+ARTEMIS,3884,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (G ! avoid_inactive_flood),True
+ARTEMIS,3884,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (G ! avoid_inactive_flood),True
+ARTEMIS,3884,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (GF avoid_inactive_flood),False
+ARTEMIS,3884,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (G ! avoid_inactive_flood),True
+ARTEMIS,3884,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (G ! avoid_inactive_flood),True
+ARTEMIS,3884,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (G ! avoid_inactive_flood),True
+ARTEMIS,3884,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (G ! avoid_inactive_flood),True
+ARTEMIS,3884,"Photograph injured_person must keep holding until, from some point on, avoid the inactive_flood holds infinitely often.",photo_injured_person U GF avoid_inactive_flood,photo_injured_person U G ! (G ! avoid_inactive_flood),True
+ARTEMIS,10415,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10415,Please (prop_1),F prop_1,prop_1,False
+ARTEMIS,10415,Please (prop_1),F prop_1,prop_1,False
+ARTEMIS,10415,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10415,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10415,Please (prop_1),F prop_1,prop_1,False
+ARTEMIS,10415,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10415,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10415,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10415,Please (prop_1),F prop_1,F prop_1,True
+ARTEMIS,10449,repeatedly ( prop_1 ) and at any time ( prop_2 ),G(F prop_1 & F prop_2),GF(prop_1) & G(prop_2),False
+ARTEMIS,10449,repeatedly ( prop_1 ) and at any time ( prop_2 ),G(F prop_1 & F prop_2),GF(prop_1) & G(prop_2),False
+ARTEMIS,10449,repeatedly ( prop_1 ) and at any time ( prop_2 ),G(F prop_1 & F prop_2),GF(prop_1) & G(prop_2),False
+ARTEMIS,10449,repeatedly ( prop_1 ) and at any time ( prop_2 ),G(F prop_1 & F prop_2),GF(prop_1) & G(prop_2),False
+ARTEMIS,10449,repeatedly ( prop_1 ) and at any time ( prop_2 ),G(F prop_1 & F prop_2),GF(prop_1) & G(prop_2),False
+ARTEMIS,10449,repeatedly ( prop_1 ) and at any time ( prop_2 ),G(F prop_1 & F prop_2),GF(prop_1) & G(prop_2),False
+ARTEMIS,10449,repeatedly ( prop_1 ) and at any time ( prop_2 ),G(F prop_1 & F prop_2),GF(prop_1) & G(prop_2),False
+ARTEMIS,10449,repeatedly ( prop_1 ) and at any time ( prop_2 ),G(F prop_1 & F prop_2),GF(prop_1) & G(prop_2),False
+ARTEMIS,10449,repeatedly ( prop_1 ) and at any time ( prop_2 ),G(F prop_1 & F prop_2),GF(prop_1) & G(prop_2),False
+ARTEMIS,10449,repeatedly ( prop_1 ) and at any time ( prop_2 ),G(F prop_1 & F prop_2),GF(prop_1) & GF(prop_2),True
+ARTEMIS,10560,"If it is the case that for the event that ( prop_4 ) happens then ( prop_1 ) , and this in turn implies ( prop_2 ) , then ( prop_3 ) has to be true .",((prop_4 -> prop_1) -> prop_2) -> prop_3,((prop_4 -> prop_1) -> prop_2) -> prop_3,True
+ARTEMIS,10560,"If it is the case that for the event that ( prop_4 ) happens then ( prop_1 ) , and this in turn implies ( prop_2 ) , then ( prop_3 ) has to be true .",((prop_4 -> prop_1) -> prop_2) -> prop_3,((prop_4 -> prop_1) & (prop_1 -> prop_2)) -> prop_3,False
+ARTEMIS,10560,"If it is the case that for the event that ( prop_4 ) happens then ( prop_1 ) , and this in turn implies ( prop_2 ) , then ( prop_3 ) has to be true .",((prop_4 -> prop_1) -> prop_2) -> prop_3,((prop_4 -> prop_1) -> prop_2) -> prop_3,True
+ARTEMIS,10560,"If it is the case that for the event that ( prop_4 ) happens then ( prop_1 ) , and this in turn implies ( prop_2 ) , then ( prop_3 ) has to be true .",((prop_4 -> prop_1) -> prop_2) -> prop_3,((prop_4 -> prop_1) & (prop_1 -> prop_2)) -> prop_3,False
+ARTEMIS,10560,"If it is the case that for the event that ( prop_4 ) happens then ( prop_1 ) , and this in turn implies ( prop_2 ) , then ( prop_3 ) has to be true .",((prop_4 -> prop_1) -> prop_2) -> prop_3,((prop_4 -> prop_1) & (prop_1 -> prop_2)) -> prop_3,False
+ARTEMIS,10560,"If it is the case that for the event that ( prop_4 ) happens then ( prop_1 ) , and this in turn implies ( prop_2 ) , then ( prop_3 ) has to be true .",((prop_4 -> prop_1) -> prop_2) -> prop_3,((prop_4 -> prop_1) & (prop_1 -> prop_2)) -> prop_3,False
+ARTEMIS,10560,"If it is the case that for the event that ( prop_4 ) happens then ( prop_1 ) , and this in turn implies ( prop_2 ) , then ( prop_3 ) has to be true .",((prop_4 -> prop_1) -> prop_2) -> prop_3,((prop_4 -> prop_1) & (prop_1 -> prop_2)) -> prop_3,False
+ARTEMIS,10560,"If it is the case that for the event that ( prop_4 ) happens then ( prop_1 ) , and this in turn implies ( prop_2 ) , then ( prop_3 ) has to be true .",((prop_4 -> prop_1) -> prop_2) -> prop_3,((prop_4 -> prop_1) -> prop_2) -> prop_3,True
+ARTEMIS,10560,"If it is the case that for the event that ( prop_4 ) happens then ( prop_1 ) , and this in turn implies ( prop_2 ) , then ( prop_3 ) has to be true .",((prop_4 -> prop_1) -> prop_2) -> prop_3,((prop_4 -> prop_1) & (prop_1 -> prop_2)) -> prop_3,False
+ARTEMIS,10560,"If it is the case that for the event that ( prop_4 ) happens then ( prop_1 ) , and this in turn implies ( prop_2 ) , then ( prop_3 ) has to be true .",((prop_4 -> prop_1) -> prop_2) -> prop_3,((prop_4 -> prop_1) -> prop_2) -> prop_3,True
+ARTEMIS,10619,"If you do either (prop_1) or (prop_3), then you should always do (prop_2) .",(prop_1 | prop_3) -> G prop_2,(prop_1 | prop_3) -> G prop_2,True
+ARTEMIS,10619,"If you do either (prop_1) or (prop_3), then you should always do (prop_2) .",(prop_1 | prop_3) -> G prop_2,G((prop_1 | prop_3) -> G prop_2),False
+ARTEMIS,10619,"If you do either (prop_1) or (prop_3), then you should always do (prop_2) .",(prop_1 | prop_3) -> G prop_2,(prop_1 | prop_3) -> G prop_2,True
+ARTEMIS,10619,"If you do either (prop_1) or (prop_3), then you should always do (prop_2) .",(prop_1 | prop_3) -> G prop_2,(prop_1 | prop_3) -> G prop_2,True
+ARTEMIS,10619,"If you do either (prop_1) or (prop_3), then you should always do (prop_2) .",(prop_1 | prop_3) -> G prop_2,G((prop_1 | prop_3) -> G prop_2),False
+ARTEMIS,10619,"If you do either (prop_1) or (prop_3), then you should always do (prop_2) .",(prop_1 | prop_3) -> G prop_2,G((prop_1 | prop_3) -> G prop_2),False
+ARTEMIS,10619,"If you do either (prop_1) or (prop_3), then you should always do (prop_2) .",(prop_1 | prop_3) -> G prop_2,G((prop_1 | prop_3) -> G prop_2),False
+ARTEMIS,10619,"If you do either (prop_1) or (prop_3), then you should always do (prop_2) .",(prop_1 | prop_3) -> G prop_2,(prop_1 | prop_3) -> G prop_2,True
+ARTEMIS,10619,"If you do either (prop_1) or (prop_3), then you should always do (prop_2) .",(prop_1 | prop_3) -> G prop_2,G((prop_1 | prop_3) -> G prop_2),False
+ARTEMIS,10619,"If you do either (prop_1) or (prop_3), then you should always do (prop_2) .",(prop_1 | prop_3) -> G prop_2,(prop_1 | prop_3) -> G prop_2,True
+ARTEMIS,10709,"If (prop_3) and (prop_2), then (prop_4) and (prop_1) .",(prop_2 & prop_3) -> (prop_1 & prop_4),G((prop_3 & prop_2) -> (prop_4 & prop_1)),False
+ARTEMIS,10709,"If (prop_3) and (prop_2), then (prop_4) and (prop_1) .",(prop_2 & prop_3) -> (prop_1 & prop_4),G((prop_3 & prop_2) -> (prop_4 & prop_1)),False
+ARTEMIS,10709,"If (prop_3) and (prop_2), then (prop_4) and (prop_1) .",(prop_2 & prop_3) -> (prop_1 & prop_4),G((prop_3 & prop_2) -> (prop_4 & prop_1)),False
+ARTEMIS,10709,"If (prop_3) and (prop_2), then (prop_4) and (prop_1) .",(prop_2 & prop_3) -> (prop_1 & prop_4),G((prop_3 & prop_2) -> (prop_4 & prop_1)),False
+ARTEMIS,10709,"If (prop_3) and (prop_2), then (prop_4) and (prop_1) .",(prop_2 & prop_3) -> (prop_1 & prop_4),G((prop_3 & prop_2) -> (prop_4 & prop_1)),False
+ARTEMIS,10709,"If (prop_3) and (prop_2), then (prop_4) and (prop_1) .",(prop_2 & prop_3) -> (prop_1 & prop_4),(prop_3 & prop_2) -> (prop_4 & prop_1),True
+ARTEMIS,10709,"If (prop_3) and (prop_2), then (prop_4) and (prop_1) .",(prop_2 & prop_3) -> (prop_1 & prop_4),G((prop_3 & prop_2) -> (prop_4 & prop_1)),False
+ARTEMIS,10709,"If (prop_3) and (prop_2), then (prop_4) and (prop_1) .",(prop_2 & prop_3) -> (prop_1 & prop_4),G((prop_3 & prop_2) -> (prop_4 & prop_1)),False
+ARTEMIS,10709,"If (prop_3) and (prop_2), then (prop_4) and (prop_1) .",(prop_2 & prop_3) -> (prop_1 & prop_4),G((prop_3 & prop_2) -> (prop_4 & prop_1)),False
+ARTEMIS,10709,"If (prop_3) and (prop_2), then (prop_4) and (prop_1) .",(prop_2 & prop_3) -> (prop_1 & prop_4),G((prop_3 & prop_2) -> (prop_4 & prop_1)),False
