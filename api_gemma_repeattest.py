@@ -296,7 +296,7 @@ for temp in [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
 
             accuracy = correct / total if total else 0.0
             print(f"{ind}",accuracy, correct ,total)
-            if len(rows) > 1:
+            if len(set([x for x in rows])) > 1:
                 with open(current_tempOut+"loggs_accuracy.csv", "a", newline="", encoding="utf-8") as g:
                     print(f"Total accuracy: {accuracy:.4f} ({correct}/{total})",file=g,)
                     print(f"Syntax errors excluded: {syntax_errors}",file=g,)
