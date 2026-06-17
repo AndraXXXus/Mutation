@@ -207,7 +207,7 @@ import time
 
 
 
-for temp in [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
+for temp in [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
     print(f"Temperature: {temp}")
 
 
@@ -235,7 +235,7 @@ for temp in [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
             
 
 
-        df = df[df["batch_id"] == iii]
+        #df = df[df["batch_id"] == iii]
         for _, row in df.iterrows():
             ind = str(row.iloc[-1])
             requirement = str(row.iloc[0])
@@ -301,7 +301,7 @@ for temp in [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
 
             unique_rows = []
             for x in rows:
-                x = spot.formula(x)
+                x = str(spot.formula(x))
                 if x not in unique_rows:
                     unique_rows.append(x)
             
