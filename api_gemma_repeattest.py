@@ -199,7 +199,7 @@ prompts = ["BASIC", "ARTEMIS" , "ADARULE"]
 
 
 
-file_input="./Batch9/final_df_downsampled.csv"
+file_input="./Batch9/final_df.csv"
 model = "google/gemma-4-31B-it"
 
 
@@ -213,6 +213,8 @@ for temp in [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
 
     for iii in [3,4,5]:
         df = pd.read_csv(file_input, sep=';')
+        df = df.iloc[:1000]
+        df = df[(df.index % 3) == (iii-3)]
         df['Index'] = df.index  
         
         dataset = []
@@ -249,7 +251,7 @@ for temp in [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
             total = 0
             correct = 0
             rows = []
-            for retake in range(10):
+            for retake in range(100):
                 client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
                 
                 if prompt == "BASIC":
@@ -299,6 +301,7 @@ for temp in [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
 
             unique_rows = []
             for x in rows:
+                x = spot.formula(x)
                 if x not in unique_rows:
                     unique_rows.append(x)
             
