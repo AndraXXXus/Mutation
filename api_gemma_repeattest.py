@@ -301,7 +301,10 @@ for temp in [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
 
             unique_rows = []
             for x in rows:
-                x = str(spot.formula(x))
+                try:
+                    x = str(spot.formula(x))
+                except:
+                    pass
                 if x not in unique_rows:
                     unique_rows.append(x)
             
