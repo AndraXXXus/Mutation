@@ -300,12 +300,12 @@ for temp in [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
             print(f"{ind}",accuracy, correct ,total)
 
             unique_rows = []
+            unique_ltl = []
             for x in rows:
-                try:
-                    x = str(spot.formula(x))
-                except:
-                    pass
-                if x not in unique_rows:
+                y = str(spot.formula(x["Response"]))
+
+                if y not in unique_ltl:
+                    unique_ltl.append(y)
                     unique_rows.append(x)
             
             if len(unique_rows) > 1:
