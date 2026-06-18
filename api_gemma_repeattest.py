@@ -216,9 +216,8 @@ for temp in [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
         df = df.iloc[:1000]
         df = df[(df.index % 3) == (iii % 3)]
         df['Index'] = df.index  
-        
-        dataset = []
-        
+        dataset = []    
+
         prompt = prompts[(iii+1)%3]
         model_filename = model.replace("/","_")
         index_set = set()
@@ -243,7 +242,7 @@ for temp in [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
             atomic_proposition = str(row.iloc[3]).strip()
 
             dataset.append((ind,requirement, ground_truth, atomic_proposition))
-
+   
         print("start",len(dataset), dataset[0])
         for ind, requirement, ground_truth, atomic_proposition in dataset:
             parse_errors = 0
@@ -251,7 +250,9 @@ for temp in [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
             total = 0
             correct = 0
             rows = []
+            print(ind, requirement, ground_truth, atomic_proposition)
             for retake in range(100):
+                print(retake)
                 client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
                 
                 if prompt == "BASIC":
