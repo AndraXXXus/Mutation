@@ -214,7 +214,7 @@ for temp in [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
     for iii in [3,4,5]:
         df = pd.read_csv(file_input, sep=';')
         df = df.iloc[:1000]
-        df = df[(df.index % 3) == (iii-3)]
+        df = df[(df.index % 3) == (iii % 3)]
         df['Index'] = df.index  
         
         dataset = []
@@ -302,7 +302,10 @@ for temp in [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
             unique_rows = []
             unique_ltl = []
             for x in rows:
-                y = str(spot.formula(x["Response"]))
+                try:
+                    y = str(spot.formula(x["Response"]))
+                except Exception as e:
+                    y = x["Response"]
 
                 if y not in unique_ltl:
                     unique_ltl.append(y)
