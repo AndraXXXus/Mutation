@@ -1,0 +1,701 @@
+PROMPTTYPE,Index,Requirement,Ground Truth,Response,Equivalent
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G(prop_2 <-> prop_1) & G(prop_3 ),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,1,"Make sure that (prop_2) is equivalent to (prop_1), and also make sure (prop_3) is always true .",(prop_1 <-> prop_2) & G prop_3,G((prop_2 <-> prop_1) & prop_3),False
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G((constructor_instantiate_objects & elevator_is_open) -> F(elevator_is_blocked)),False
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G((constructor_instantiate_objects & elevator_is_open) -> F(elevator_is_blocked)),False
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G((constructor_instantiate_objects & elevator_is_open) -> F(elevator_is_blocked)),False
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G((constructor_instantiate_objects & F(elevator_is_open)) -> F(elevator_is_blocked)),False
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G((constructor_instantiate_objects & F elevator_is_open) -> F elevator_is_blocked),False
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G((constructor_instantiate_objects & elevator_is_open) -> F(elevator_is_blocked)),False
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G((constructor_instantiate_objects & elevator_is_open) -> F(elevator_is_blocked)),False
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G((constructor_instantiate_objects & F elevator_is_open) -> F elevator_is_blocked),False
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G((constructor_instantiate_objects & elevator_is_open) -> F(elevator_is_blocked)),False
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G((constructor_instantiate_objects & F(elevator_is_open)) -> F(elevator_is_blocked)),False
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G((constructor_instantiate_objects & F(elevator_is_open)) -> F(elevator_is_blocked)),False
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,22,"when a constructor instantiate objects then after an elevator is open, at some point in time the elevator is blocked afterwards",G(constructor_instantiate_objects -> G(elevator_is_open -> F elevator_is_blocked)),G(constructor_instantiate_objects -> G(elevator_is_open -> F(elevator_is_blocked))),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9 & photo)),False
+ADARULE,31,"Reach landmark_9, capture an image, and remain there forever",F(landmark_9 & photo & G landmark_9),F(landmark_9 & photo & G(landmark_9)),True
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,40,whenever ( prop_1 ) or repeatedly ( prop_2 ),F(prop_1 | GF prop_2),G(prop_1 | GF prop_2),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> go_to_waste_basket ),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> go_to_waste_basket ),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> go_to_waste_basket ),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> go_to_waste_basket ),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> go_to_waste_basket ),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(touch_tree )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> go_to_waste_basket ),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> go_to_waste_basket ),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(touch_tree )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(touch_tree )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> go_to_waste_basket ),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> go_to_waste_basket ),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(touch_tree )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> go_to_waste_basket ),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> go_to_waste_basket ),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,55,repeatedly go_to waste basket or whenever touch tree,GF go_to_waste_basket | F touch_tree,GF(go_to_waste_basket ) | G(touch_tree -> F(go_to_waste_basket )),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X(photo_fire_source))),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X(photo_fire_source))),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X(photo_fire_source))),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X(photo_fire_source))),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X(photo_fire_source))),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) & G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) & G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) & G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) & G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) & G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) & G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) & G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) & G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False

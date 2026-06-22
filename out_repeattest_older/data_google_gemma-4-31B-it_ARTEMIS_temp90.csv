@@ -1,0 +1,1001 @@
+PROMPTTYPE,Index,Requirement,Ground Truth,Response,Equivalent
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak)) # This is wrong. ""Beforehand"" implies avoid_impending_gas_leak happened before get_help.",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F(avoid_impending_gas_leak) V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> O(avoid_impending_gas_leak)),
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak V get_help)) # Wait, the standard translation for ""must have held beforehand"" (past requirement) in future-only LTL is usually expressed as:",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak)) # This is incorrect based on ""beforehand"".",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak V get_help)) # Wait, the prompt asks for ""must have held beforehand"", which implies a past requirement. In standard LTL (future-only), ""A must have happened before B"" is expressed as ""B cannot happen unless A has happened"".",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak)) # wait, ""must have held beforehand"" implies the past. In standard LTL (future-only), ""A must have happened before B"" is represented as ""B cannot happen unless A happened first"".",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak)) # Incorrect interpretation of ""beforehand"".",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak V get_help)) # Incorrect logic for ""beforehand"".",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak V get_help)) # Wait, the prompt asks for ""must have held beforehand"". In LTL, ""P must have held before Q"" is typically expressed as G(Q -> (P U Q)) or G(!P -> !Q). Specifically, if get_help happens, avoid_impending_gas_leak must have occurred at some point in the past.",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak V get_help)) # This is not correct for ""beforehand"".",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak V get_help)) # Wait, the natural language ""must have held beforehand"" implies that avoid_impending_gas_leak must happen before get_help. The standard LTL pattern for ""A must happen before B"" is !B U A.",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak V get_help)) # Wait, the ""beforehand"" requirement means avoid_impending_gas_leak must occur prior to get_help. In LTL, this is typically represented as:",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak)) # Wait, the prompt says ""must have held beforehand"". This implies a past necessity or a condition that must be met before the event. In standard LTL (future-only), ""A must have happened before B"" is typically represented as ""B cannot happen unless A has happened"".",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak)) # Wait, the prompt says ""must have held beforehand"". That implies a past-time requirement or a specific sequence. In standard LTL (future-only), ""A must have happened before B"" is typically expressed as ""B cannot happen unless A has happened first"".",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak)) # This is incorrect based on ""beforehand"".",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak)) # Wait, ""must have held beforehand"" implies the past. In standard LTL (future-only), ""p must have held before q"" is typically expressed as ""q cannot happen unless p happened first"", which is !get_help U avoid_impending_gas_leak. However, the phrasing ""If get_help ever holds"" suggests a conditional.",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak)) # This is a common mistake. Let's re-evaluate ""must have held beforehand"".",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> O avoid_impending_gas_leak),
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak V get_help)) # Wait, the prompt asks for ""must have held beforehand"". In LTL, ""A must have held before B"" is typically represented as !B U A. However, a more standard way to say ""B cannot happen unless A has happened"" is G(!get_help W avoid_impending_gas_leak). Since W (weak until) is not in the provided operator list, we use the equivalence G(!get_help | (avoid_impending_gas_leak U get_help)) or simply using the ""releases"" operator.",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak)) # Wait, the prompt says ""must have held beforehand"". In LTL, ""beforehand"" for an event that happens eventually is usually expressed as the condition being met before the trigger. However, the standard translation for ""If A ever happens, B must have happened before it"" is G(A -> (something happened in the past)). Since standard LTL is future-looking, ""B must have held beforehand"" is equivalent to saying ""A cannot happen unless B has happened"". This is expressed as !get_help U avoid_impending_gas_leak.",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak V get_help)) # This is logically complex. Let's use the standard ""precondition"" pattern:",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),"G(get_help -> (F avoid_impending_gas_leak)) # Wait, the prompt says ""must have held beforehand"". This implies a past requirement. In standard LTL (future-only), ""P must have held before Q"" is translated as ""Q cannot happen unless P happened first"".",
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> O avoid_impending_gas_leak),
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F(avoid_impending_gas_leak) V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (avoid_impending_gas_leak V get_help)),False
+ARTEMIS,0,"If get_help ever holds, avoid the impending_gas_leak must have held beforehand.",F get_help -> (!get_help U (avoid_impending_gas_leak & !get_help)),G(get_help -> (F avoid_impending_gas_leak V get_help)),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(pd & shop_1 & F(p_bottle_3 & F(pd & hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,6,"Go to store 1, grab bottle 3, and move it to hospital 2.",F(shop_1 & F(p_bottle_3 & F(hospital_2 & pd))),F(shop_1 & F(p_bottle_3 & F(hospital_2))),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> G(make_your_way_flag)),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> G(make_your_way_flag)),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> G make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> G(make_your_way_flag)),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> G(make_your_way_flag)),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> G(make_your_way_flag)),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> G make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> F make_your_way_flag),False
+ARTEMIS,15,"if whenever gather pear , at any time make_your_way flag",F gather_pear -> F make_your_way_flag,G(gather_pear -> G make_your_way_flag),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_2 -> prop_1),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_2 -> prop_1),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_2 -> prop_1),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_2 -> prop_1),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,"G(prop_1 -> G(prop_2 -> prop_2)) # This is logically redundant. Let's re-evaluate the natural language ""when ( prop_1 ) , whenever ( prop_2 )"".",
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_2 -> prop_1),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_2 -> prop_1),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_2 -> prop_1),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,27,"when ( prop_1 ) , whenever ( prop_2 )",prop_1 -> F prop_2,G(prop_1 -> G(prop_2 -> prop_2)),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),"G(prop_1) & G(prop_2 -> prop_2) # Wait, ""whenever"" usually implies a trigger. However, based on the input string ""forever ( prop_1 ) and whenever ( prop_2 )"", the second part is an incomplete implication. In LTL translation of ""whenever p"", it usually implies G(p -> q). But here no consequence is provided. If ""whenever prop_2"" is interpreted as ""prop_2 must always be true"" or simply a standalone requirement of existence, it's ambiguous. But looking at the structure, ""forever prop_1"" is G(prop_1). ""Whenever prop_2"" without a consequent is often a shorthand for G(prop_2) in simple logic tests or a typo. However, strictly translating the words: ""forever prop_1"" = G(prop_1). ""whenever prop_2"" is usually a prefix. If the input is meant to be ""forever prop_1 AND whenever prop_2 [is true]"", it implies G(prop_1) & G(prop_2).",
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),"G(prop_1) & G(prop_2 -> prop_2) # Wait, the natural language says ""whenever (prop_2)"", but it doesn't specify the consequence. In LTL, ""whenever p"" usually implies p is a trigger for something, but as written it is an incomplete clause. However, interpreting ""whenever (prop_2)"" as a standalone requirement often defaults to G(prop_2) or is treated as a premise. Given the structure ""forever (prop_1) and whenever (prop_2)"", it most likely translates to:",
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),"G(prop_1) & G(prop_2 -> prop_2) # Wait, ""whenever prop_2"" is an incomplete clause. In LTL translation for ""whenever p"", it usually implies an eventuality or a reaction. However, strictly following the prompt's phrasing ""forever (prop_1) and whenever (prop_2)"", the ""whenever (prop_2)"" is syntactically incomplete as a requirement. But in common LTL benchmarks, ""whenever p"" is often shorthand for ""G(p -> ...)"" or simply ""G p"" if no consequence is given. Given the phrasing, the most likely intent is that both are global invariants.",
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,30,forever ( prop_1 ) and whenever ( prop_2 ),G(prop_1 & F prop_2),G(prop_1) & G(prop_2 -> prop_2),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & F(p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd & F(p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) & (p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) & (p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) -> F(p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) -> F(p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) & (p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) & (p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd & F(p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) & (p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & F(p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) & (p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) & (p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd & F(p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) & (p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) & (p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd & F(p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) & (p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) & (p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) -> F(p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) -> F(p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) -> F(p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & street_4 & p_traffic_cone_5 & F(pd & intersection_6 & p_traffic_cone_5)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) -> F(p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(p_traffic_cone_5 & street_4 & pd) & F(F(p_traffic_cone_5 & street_4 & pd) -> F(p_traffic_cone_5 & intersection_6 & pd)),False
+ARTEMIS,33,Pick up traffic_cone_5 from street_4 and subsequently place it in intersection_6,F(street_4 & F(p_traffic_cone_5 & F(intersection_6 & pd))),F(pd & p_traffic_cone_5 & street_4 & F(pd & p_traffic_cone_5 & intersection_6)),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(pd & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,36,"Pick up tin_can_4 from table_4, deliver it to trash_can_5, and avoid going into hallway_2",F(table_4 & F(p_tin_can_4 & F(pd & trash_can_5))) & G!hallway_2,F(p_tin_can_4 & table_4 & F(p_tin_can_4 & trash_can_5)) & G(!hallway_2),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # This is incorrect based on ""beforehand"".",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> O(avoid_probable_fire_source)),
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Wait, the prompt says ""must have held beforehand"". In LTL, if A happens, B must have happened before it. This is typically represented as: !deliver_aid_injured_victim U avoid_probable_fire_source.",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> O avoid_probable_fire_source),
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Incorrect logic. Let's re-evaluate.,
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # This is incorrect based on ""beforehand"".",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # This is incorrect based on the ""beforehand"" logic.",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # This is a common interpretation, but the prompt asks for ""must have held beforehand"". In LTL, ""A must have held before B"" is typically expressed as:",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # This is incorrect based on ""beforehand"".",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)) # Wait, let's refine. ""Avoid must have held beforehand"" implies that if deliver_aid happens, avoid must have occurred at some point in the past. In LTL (future-looking), this is equivalent to saying deliver_aid cannot happen unless avoid has happened.",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # This is incorrect based on ""beforehand"".",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)) -> G(deliver_aid_injured_victim -> (avoid_probable_fire_source U deliver_aid_injured_victim)) -> G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) -> G(deliver_aid_injured_victim -> (avoid_probable_fire_source U deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> O(avoid_probable_fire_source)),
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Wait, the prompt says ""avoid... must have held beforehand"". This implies that if deliver_aid happens, avoid must have happened at some point in the past. In LTL (future-looking), this is equivalent to saying deliver_aid cannot happen unless avoid has already happened.",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)) -> G(deliver_aid_injured_victim -> (avoid_probable_fire_source U deliver_aid_injured_victim)) -> G(!deliver_aid_injured_victim | (avoid_probable_fire_source U deliver_aid_injured_victim)) -> G(deliver_aid_injured_victim -> (avoid_probable_fire_source U deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Wait, the prompt says ""must have held beforehand"". That is a past-time requirement. In standard LTL (future-time), ""A must have happened before B"" is equivalent to ""B cannot happen unless A has happened"".",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Incorrect logic.,
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # This interpretation is incorrect based on ""beforehand"".",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # This is incorrect based on ""beforehand"".",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Wait, the prompt says ""avoid_probable_fire_source must have held beforehand"". This implies a past-time requirement or a specific sequence. In standard LTL (future-only), ""A must have held before B"" is expressed as ""B cannot happen unless A has happened first"".",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)) -> G(deliver_aid_injured_victim -> (avoid_probable_fire_source U deliver_aid_injured_victim)) -> G(!deliver_aid_injured_victim | (avoid_probable_fire_source U deliver_aid_injured_victim)) -> G(deliver_aid_injured_victim -> F(avoid_probable_fire_source)) -> G(deliver_aid_injured_victim -> (avoid_probable_fire_source U deliver_aid_injured_victim)) -> G(!deliver_aid_injured_victim | (avoid_probable_fire_source U deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> O avoid_probable_fire_source),
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # This is a common misinterpretation.,
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)) # This is not the most standard.,
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> O avoid_probable_fire_source),
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Wait, the natural language ""avoid_probable_fire_source must have held beforehand"" implies a precedence requirement.",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # This is incorrect based on ""beforehand"". Let's re-evaluate.",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> O avoid_probable_fire_source),
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Wait, ""must have held beforehand"" implies a past requirement. In standard LTL (future-only), this is expressed as: the event cannot happen unless the condition happened first.",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Incorrect interpretation of 'beforehand',
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Wait, the prompt says ""avoid... must have held beforehand"". This implies a precedence/past requirement. In standard LTL (future-only), ""A must happen before B"" is expressed as ""B cannot happen unless A has already happened"", or ""Until A, not B"".",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)) # Wait, the prompt says ""must have held beforehand"", which implies a precedence relationship. ""If A ever holds, B must have held beforehand"" translates to: A cannot happen unless B has happened.",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Incorrect logic for ""beforehand""",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Incorrect logic based on ""beforehand""",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> O avoid_probable_fire_source),
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),"G(deliver_aid_injured_victim -> (F avoid_probable_fire_source)) # Incorrect logic based on ""beforehand"". Let's re-evaluate: ""If A ever holds, B must have held beforehand"" means A cannot happen unless B happened first. This is equivalent to: !deliver_aid_injured_victim U avoid_probable_fire_source. However, if deliver_aid_injured_victim never happens, the condition is vacuously true. If it does, avoid_probable_fire_source must precede it.",
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,45,"If deliver_aid the injured_victim ever holds, avoid the probable_fire_source must have held beforehand.",F deliver_aid_injured_victim -> (!deliver_aid_injured_victim U (avoid_probable_fire_source & !deliver_aid_injured_victim)),G(deliver_aid_injured_victim -> (F avoid_probable_fire_source V deliver_aid_injured_victim)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G((!prop_1 -> prop_3) <-> prop_2),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,87,"It should be the case that if ( prop_1 ) is not detected then ( prop_3 ) , and equivalently ( prop_2 ) should be detected .",prop_2 <-> (!prop_1 -> prop_3),G(!prop_1 -> (prop_3 <-> prop_2)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G(prop_1 -> (prop_2 & prop_3)),False
+ARTEMIS,93,"(prop_2), (prop_3) as you (prop_1).",prop_2 & (prop_3 -> prop_1),G((prop_2 & prop_3) -> prop_1),False

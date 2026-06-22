@@ -1,0 +1,501 @@
+PROMPTTYPE,Index,Requirement,Ground Truth,Response,Equivalent
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & GF prop_2,True
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & GF prop_2,True
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & GF prop_2,True
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & GF prop_2,True
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & GF prop_2,True
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & GF prop_2,True
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & GF prop_2,True
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & GF prop_2,True
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & GF prop_2,True
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & GF prop_2,True
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,8,( prop_1 ) and repeatedly ( prop_2 ),prop_1 & GF prop_2,prop_1 & G prop_2,False
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F (red_room & !green_room),False
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F (red_room & !green_room),False
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F (red_room) & G (!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F red_room & G !green_room,True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F (red_room) & G (!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F (red_room & !green_room),False
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F red_room & G !green_room,True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F (red_room) & G (!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F (red_room) & G (!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F (red_room) & G (!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F (red_room) & G (!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F red_room & G !green_room,True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F(red_room) & G(!green_room),True
+BASIC,32,get to the red area by avoiding the green_room,F red_room & G!green_room,F (red_room) & G (!green_room),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F G prop_3),False
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,47,"When ( prop_1 ) or ( prop_2 ) , then the following condition holds : there should be a certain time instant in the future before the end of the simulation , at which ultimately ( prop_3 ) .",G((prop_1 | prop_2) -> F prop_3),G((prop_1 | prop_2) -> F(F prop_3)),True
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 U prop_3) & prop_2) -> F prop_4,False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,56,"If (prop_1) happens and continues until (prop_3), then if (prop_2), make (prop_4) happen .",(prop_1 U prop_3) -> (prop_2 -> prop_4),((prop_1 & (prop_1 U prop_3)) -> (prop_2 -> F prop_4)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),G(get_help -> G(!deliver_scissors_shelf)),False
+BASIC,83,"Once get_help has occurred, deliver the scissors to the shelf will never occur again.",G(get_help -> XG!deliver_scissors_shelf),F(get_help -> G(!deliver_scissors_shelf)),False
