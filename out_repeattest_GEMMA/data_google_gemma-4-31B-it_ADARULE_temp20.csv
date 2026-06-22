@@ -1,0 +1,201 @@
+PROMPTTYPE,Index,Requirement,Ground Truth,Response,Equivalent
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X(photo_fire_source | X photo_fire_source)),False
+ADARULE,64,"Photograph fire_source should always hold, with at most a two-step grace period for recovery.",!G!(photo_fire_source & X photo_fire_source),G(photo_fire_source | X photo_fire_source | X X photo_fire_source),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1 | G(!prop_2)),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
+ADARULE,70,don't ( prop_1 ) or never ( prop_2 ),!(prop_1 | G!prop_2),G(!prop_1) | G(!prop_2),False
