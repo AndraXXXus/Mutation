@@ -1,0 +1,31 @@
+PROMPTTYPE,Index,Requirement,Ground Truth,Response,Equivalent
+BASIC,5148,never let_go apple or at any time get pear,G!let_go_apple | F get_pear,G(!let_go_apple) | F(get_pear),True
+BASIC,5148,never let_go apple or at any time get pear,G!let_go_apple | F get_pear,G(!let_go_apple) | F(get_pear),True
+BASIC,5148,never let_go apple or at any time get pear,G!let_go_apple | F get_pear,G(!let_go_apple) | GF(get_pear),False
+BASIC,5148,never let_go apple or at any time get pear,G!let_go_apple | F get_pear,G(!let_go_apple) | GF(get_pear),False
+BASIC,5148,never let_go apple or at any time get pear,G!let_go_apple | F get_pear,G(!let_go_apple) | GF(get_pear),False
+BASIC,5148,never let_go apple or at any time get pear,G!let_go_apple | F get_pear,G(!let_go_apple) | F(get_pear),True
+BASIC,5148,never let_go apple or at any time get pear,G!let_go_apple | F get_pear,G(!let_go_apple) | GF(get_pear),False
+BASIC,5148,never let_go apple or at any time get pear,G!let_go_apple | F get_pear,G(!let_go_apple) | F(get_pear),True
+BASIC,5148,never let_go apple or at any time get pear,G!let_go_apple | F get_pear,G(!let_go_apple) | GF(get_pear),False
+BASIC,5148,never let_go apple or at any time get pear,G!let_go_apple | F get_pear,G(!let_go_apple) | F(get_pear),True
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U F secure_pear,True
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U F secure_pear,True
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U F secure_pear,True
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U secure_pear,False
+BASIC,5912,move_to house until at any time secure pear,move_to_house U F secure_pear,move_to_house U F secure_pear,True
+BASIC,11307,"While ( prop_3 ) , and ( prop_1 ) , then all of the following conditions hold : at a certain time point in the future before the end of the execution eventually ( prop_2 ) .",G((prop_1 & prop_3) -> F prop_2),(prop_3 & prop_1) -> F prop_2,False
+BASIC,11307,"While ( prop_3 ) , and ( prop_1 ) , then all of the following conditions hold : at a certain time point in the future before the end of the execution eventually ( prop_2 ) .",G((prop_1 & prop_3) -> F prop_2),(prop_3 & prop_1) -> F prop_2,False
+BASIC,11307,"While ( prop_3 ) , and ( prop_1 ) , then all of the following conditions hold : at a certain time point in the future before the end of the execution eventually ( prop_2 ) .",G((prop_1 & prop_3) -> F prop_2),G((prop_3 & prop_1) -> F prop_2),True
+BASIC,11307,"While ( prop_3 ) , and ( prop_1 ) , then all of the following conditions hold : at a certain time point in the future before the end of the execution eventually ( prop_2 ) .",G((prop_1 & prop_3) -> F prop_2),(prop_3 & prop_1) -> F prop_2,False
+BASIC,11307,"While ( prop_3 ) , and ( prop_1 ) , then all of the following conditions hold : at a certain time point in the future before the end of the execution eventually ( prop_2 ) .",G((prop_1 & prop_3) -> F prop_2),(prop_3 & prop_1) -> F prop_2,False
+BASIC,11307,"While ( prop_3 ) , and ( prop_1 ) , then all of the following conditions hold : at a certain time point in the future before the end of the execution eventually ( prop_2 ) .",G((prop_1 & prop_3) -> F prop_2),(prop_3 & prop_1) -> F prop_2,False
+BASIC,11307,"While ( prop_3 ) , and ( prop_1 ) , then all of the following conditions hold : at a certain time point in the future before the end of the execution eventually ( prop_2 ) .",G((prop_1 & prop_3) -> F prop_2),(prop_3 & prop_1) -> F prop_2,False
+BASIC,11307,"While ( prop_3 ) , and ( prop_1 ) , then all of the following conditions hold : at a certain time point in the future before the end of the execution eventually ( prop_2 ) .",G((prop_1 & prop_3) -> F prop_2),(prop_3 & prop_1) -> F prop_2,False
+BASIC,11307,"While ( prop_3 ) , and ( prop_1 ) , then all of the following conditions hold : at a certain time point in the future before the end of the execution eventually ( prop_2 ) .",G((prop_1 & prop_3) -> F prop_2),(prop_3 & prop_1) -> F prop_2,False
+BASIC,11307,"While ( prop_3 ) , and ( prop_1 ) , then all of the following conditions hold : at a certain time point in the future before the end of the execution eventually ( prop_2 ) .",G((prop_1 & prop_3) -> F prop_2),(prop_3 & prop_1) -> F prop_2,False
