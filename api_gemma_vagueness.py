@@ -29,6 +29,8 @@ timestamp = int(time.time())
 from pathlib import Path
 current_tempOut = Path("tempOut/"+str(timestamp))
 print(timestamp)
+#tempOut = Path("tempOut/")
+#tempOut.mkdir()
 current_tempOut.mkdir()
 current_tempOut = str(current_tempOut)+"/"
 INSTRUCTION = """
@@ -186,6 +188,8 @@ def semantically_equivalent(formula_a: str, formula_b: str):
         None  -> syntax error, exclude from accuracy
     """
     try:
+        print(formula_a)
+        print(      formula_b)
         f_a = spot.formula(formula_a)
         f_b = spot.formula(formula_b)
 
@@ -235,7 +239,7 @@ import time
 
 for file_inp in os.listdir(file_input):
 
-    for temp in [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
+    for temp in [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]: #
         print(f"Temperature: {temp}")
 
 
@@ -263,11 +267,10 @@ for file_inp in os.listdir(file_input):
 
 
 
-            for _, row in df.iterrows():
-                ind = str(row.iloc[-1])
+            for ind, row in df.iterrows():
                 requirement = str(row.iloc[0])
-                ground_truth = str(row.iloc[2]).strip()
-                atomic_proposition = str(row.iloc[3]).strip()
+                ground_truth = str(row.iloc[1]).strip()
+                atomic_proposition = str(row.iloc[2]).strip()
 
                 dataset.append((ind,requirement, ground_truth, atomic_proposition))
 
@@ -299,9 +302,10 @@ for file_inp in os.listdir(file_input):
 
                     equivalent = semantically_equivalent(ground_truth, model_response)
 
+                    equivalent2 = equivalent
                     if equivalent is None:
                         equivalent2 = "None"
-                        
+
                     output.append(
                         {       
                                                     
