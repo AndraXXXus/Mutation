@@ -299,6 +299,9 @@ for file_inp in os.listdir(file_input):
 
                     equivalent = semantically_equivalent(ground_truth, model_response)
 
+                    if equivalent is None:
+                        equivalent2 = "None"
+                        
                     output.append(
                         {       
                                                     
@@ -309,7 +312,7 @@ for file_inp in os.listdir(file_input):
                                 "Atomic Proposition": atomic_proposition,
                                 "Original Response": og_model_response,
                                 "Response": model_response,
-                                "Equivalent": equivalent
+                                "Equivalent": equivalent2
                             }
                     )
 
@@ -327,7 +330,7 @@ for file_inp in os.listdir(file_input):
                                 "Requirement": requirement,
                                 "Ground Truth": ground_truth,
                                 "Response": model_response,
-                                "Equivalent": equivalent
+                                "Equivalent": equivalent2
                             }
                         )
                             
@@ -370,6 +373,6 @@ for file_inp in os.listdir(file_input):
                 with open(full_output_file, "w", newline="", encoding="utf-8") as g:
                         writer = csv.DictWriter(
                             g,
-                            fieldnames=['PROMPTTYPE',"Index", "Requirement", "Ground Truth","Atomic Proposition" ,"Original Response", "Response", "Equivalent"],
+                            fieldnames=['PROMPTTYPE',"Index", "Requirement", "Ground Truth", "Atomic Proposition", "Original Response", "Response", "Equivalent"],
                         )
                         writer.writerows(output)
