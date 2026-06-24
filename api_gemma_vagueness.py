@@ -250,8 +250,8 @@ for file_inp in os.listdir(file_input):
             model_filename = model.replace("/","_")
             index_set = set()
 
-            output_file = "out_vagueness_human/"+f"/data_{file_inp}_{model_filename}_{prompt}_temp{int(temp*100)}.csv"
-            full_output_file = "full_outputs/" + f"/data_{file_inp}_{model_filename}_{prompt}_temp{int(temp*100)}.csv"
+            output_file = "out_vagueness_human/"+f"data_{file_inp}_{model_filename}_{prompt}_temp{int(temp*100)}.csv"
+            full_output_file = "full_outputs/" + f"data_{file_inp}_{model_filename}_{prompt}_temp{int(temp*100)}.csv"
             if not os.path.exists(output_file):
                 with open(output_file, "w", newline="", encoding="utf-8") as g:
                     writer = csv.DictWriter(
@@ -299,7 +299,19 @@ for file_inp in os.listdir(file_input):
 
                     equivalent = semantically_equivalent(ground_truth, model_response)
 
-                    output.append((prompt,ind, requirement, ground_truth, atomic_proposition, og_model_response, model_response, equivalent))
+                    output.append(
+                        {       
+                                                    
+                                'PROMPTTYPE': prompt,
+                                "Index": ind,
+                                "Requirement": requirement,
+                                "Ground Truth": ground_truth,
+                                "Atomic Proposition": atomic_proposition,
+                                "Original_response": og_model_response,
+                                "Response": model_response,
+                                "Equivalent": equivalent
+                            }
+                    )
 
                     
                     if equivalent is None:
