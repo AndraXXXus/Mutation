@@ -307,7 +307,7 @@ for file_inp in os.listdir(file_input):
                                 "Requirement": requirement,
                                 "Ground Truth": ground_truth,
                                 "Atomic Proposition": atomic_proposition,
-                                "Original_response": og_model_response,
+                                "Original Response": og_model_response,
                                 "Response": model_response,
                                 "Equivalent": equivalent
                             }
@@ -370,6 +370,6 @@ for file_inp in os.listdir(file_input):
                 with open(full_output_file, "w", newline="", encoding="utf-8") as g:
                         writer = csv.DictWriter(
                             g,
-                            fieldnames=['PROMPTTYPE',"Index", "Requirement", "Ground Truth","Atomic Proposition" ,"Response", "Translation", "Equivalent"],
+                            fieldnames=['PROMPTTYPE',"Index", "Requirement", "Ground Truth","Atomic Proposition" ,"Original Response", "Response", "Equivalent"],
                         )
                         writer.writerows(output)
