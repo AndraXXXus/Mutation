@@ -1,0 +1,3117 @@
+[
+  {
+    "id": 1001,
+    "status": "OK",
+    "text": "A SpaceWire Port shall incorporate a flow control manager which manages the flow of data over the link, preventing data from being sent when there is no space for it in the receive FIFO.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box ((RXFIFO \\ full) \\to (\\neg(send \\ (NChar)))",
+        "f_code": "G((RXFIFO_full) --> (not (send_NChar)))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1002,
+    "status": "OK",
+    "text": "Transmit Enable, which enables the transmitter (character encoder, serialiser, data-strobe encoder and line driver) when asserted and resets it when de-asserted.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box(((Transmit \\ asserted) \\to \\newline (enable: (encoder \\ \\wedge \\ serialiser \\ \\wedge data \\ strobe \\ encoder \\newline  \\wedge \\ line \\ driver)))   \\vee ((Transmit \\ de-asserted)\\to \\newline  (reset: (encoder \\ \\wedge \\ serialiser \\ \\wedge data \\ strobe \\ encoder \\wedge \\ line \\ driver))))",
+        "f_code": "G(((Transmit_asserted) --> (enable_encoder and enable_serialiser and enable_data_strobe_encoder and enable_line_driver)) or  ((Transmit_de_asserted) --> (reset_encoder and reset_serialiser and reset_data_strobe_encoder and reset_line_driver)))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1003,
+    "status": "OK",
+    "text": "Receive Enable, which enables the receiver (line receiver, data-strobe decoder, de-serialiser and character decoder) when asserted and resets it when de-asserted",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box(((Receive \\ asserted) \\to \\newline   (enable: (line \\ receiver \\ \\wedge \\ de-serialiser \\ \\wedge data-strobe \\ decoder \\wedge \\ character\\ decoder)) \\newline   \\vee ((Receive \\ de-asserted) \\to \\newline  (reset:(line \\ receiver \\ \\wedge \\ de-serialiser \\ \\wedge data-strobe \\ decoder \\wedge \\ character\\ decoder))))",
+        "f_code": "G(((Receive_asserted) --> (enable_line_receiver and enable_de_serialiser and enable_data_strobe_decoder and enable_character_decoder)) or ((Receive_de_asserted) --> (reset_line_receiver and reset_de_serialiser and reset_data_strobe_decoder and reset_character_decoder)))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1004,
+    "status": "OK",
+    "text": "The encoding layer shall inform the data link layer of changes in the encoding layer indicated by the following status flags: 1.Disconnect, which indicates that the link has been disconnected. 2.Receive error, which indicates that an error has been detected in a received symbol. 3.gotNull, which indicates that the first Null control code has been received without any parity errors",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((encoding \\ layer \\ disconnected) \\to ( Disconnect \\ flag)) \\newline \\Box((receive \\ error) \\to (receive \\ error \\ flag )) \\newline \\Box((firstNull \\ received) \\to (gotNull \\ flag))",
+        "f_code": "G((encoding_layer_disconnected) --> ( Disconnect_flag)) and G((receive_error) --> (receive_error_flag )) and G((firstNull_received) --> (gotNull_flag))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1005,
+    "status": "OK",
+    "text": "The Data and Strobe signals shall be set to zero on power up reset",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((Power \\ up \\ Reset) \\to (Data:=0 \\wedge Strobe:=0))",
+        "f_code": "G((power_up_reset) --> (data == 0 and strobe == 0))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1006,
+    "status": "OK",
+    "text": "Null detection shall be enabled whenever the receiver is enabled",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((receiver \\ enabled) \\ \\to \\ (Null \\ detection \\ enabled))",
+        "f_code": "G((receiver_enabled) --> (Null_detection_enabled))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1007,
+    "status": "OK",
+    "text": "The gotNull condition shall only be cleared when the RX Enable flag is de-asserted",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((RX \\ enable \\ flag \\ de \\ asserted) \\to (got Null \\ condition \\ cleared))",
+        "f_code": "G((RX_enable_flag_de_asserted) --> (gotNull_condition_cleared))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1008,
+    "status": "OK",
+    "text": "Parity detection shall be enabled whenever the receiver is enabled and the gotNull condition is asserted",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box(((receiver \\ enabled) \\wedge (gotNull \\ asserted)) \\to (Parity \\ enable))",
+        "f_code": "G(((receiver_enabled) and (gotNull_asserted)) --> (Parity_enable))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1009,
+    "status": "OK",
+    "text": "ESC error detection shall be enabled while the gotNull condition is asserted",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((gotNull \\ asserted) \\to (ESC \\ error \\ detection \\ enable))",
+        "f_code": "G((gotNull_asserted) --> (ESC_error_detection_enable))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1010,
+    "status": "OK",
+    "text": "The data link layer shall indicate to the Network layer when it is able to accept another N-Char for sending",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((ready \\ to \\ accept \\ N-Char) \\to \\ (indicate \\ accept \\ N-Char))",
+        "f_code": "G((ready_to_accept_NChar) --> (indicate_accept_NChar))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1011,
+    "status": "OK",
+    "text": "The data link layer shall indicate to the Network layer when it has an N-Char ready for passing to the Network layer",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((NChar\\ ready \\ to \\ pass ) \\to \\ (indicate \\ passing \\ NChar))",
+        "f_code": "G((NChar_ready_to_pass ) --> (indicate_passing_NChar))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1012,
+    "status": "OK",
+    "text": "The data link layer shall indicate to the Network layer when it has a broadcast code ready for passing to the Network layer",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((broadcast \\ code \\ ready ) \\to \\ (indicate \\ passing \\ broadcast \\ code))",
+        "f_code": "G((broadcast_code_ready ) --> (indicate_passing_broadcast_code))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1013,
+    "status": "OK",
+    "text": "The data link layer shall control the operation of the encoding layer using the following control flags: 1.Transmit Enable, which enables the transmitter (character encoder, serialiser, data-strobe encoder and line driver) when asserted and reset it when de-asserted. 2.Receive Enable, which enables the receiver (line receiver, data- strobe decoder, de-serialiser and character decoder) when asserted and reset it when de-asserted",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box(( transmit \\ enable) \\to (enable \\ transmitter))\\newline \\Box(\\neg ( transmit \\ enable) \\to (reset \\ transmitter))\\newline \\Box((receive \\ enable) \\to (enable \\ receiver)) \\newline \\Box(\\neg (receive \\ enable) \\to (reset \\ receiver)) ",
+        "f_code": "G(( transmit_enable) --> (enable_transmitter)) and G(not ( transmit_enable) --> (reset_transmitter)) and G((receive_enable) --> (enable_receiver)) and G(not (receive_enable) --> (reset_receiver))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1014,
+    "status": "OK",
+    "text": "The data link layer shall respond to changes in the encoding layer indicated by the following status flags: 1.Disconnect, which indicates that the link has been disconnected. 2.Receive error, which indicates that an error has been detected in a received symbol. 3.gotNull, which indicates that the first Null character has been received without any parity errors",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((link \\ disconnected) \\to (indicate \\ Disconnect )), \\newline \\Box((error \\ detected) \\to (indicate \\ Receive \\ Error)) ,\\newline \\Box((firstNull \\ received) \\to (indicate \\ gotNull))",
+        "f_code": "G((link_disconnected) --> (indicate_Disconnect )) and G((error_detected) --> (indicate_Receive_Error)) and G((firstNull_received) --> (indicate_gotNull))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1015,
+    "status": "OK",
+    "text": "An FCT shall be sent from the data link layer to the encoding layer when the data link layer is ready to receive a further eight N-Chars",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((data \\ link \\ layer \\ ready \\ to \\ receive) \\to (FCT \\ sent))",
+        "f_code": "G((data_link_layer_ready_to_receive) --> (FCT_sent))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1016,
+    "status": "OK",
+    "text": "The transmit credit count shall be set to zero whenever the link state machine enters the ErrorReset state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((ErrorReset \\ state) \\to (set \\ transmit \\ credit := 0))",
+        "f_code": "G((ErrorReset_state) --> (set_transmit_credit == 0))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1017,
+    "status": "OK",
+    "text": "A maximum of seven FCTs shall be outstanding at any time",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((Number \\ of \\ FCTs) \\leq 7)",
+        "f_code": "G(Number_of_FCTs <= 7)",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1018,
+    "status": "OK",
+    "text": "If an FCT is received which causes the transmit credit counter to exceed its maximum value, a credit error shall be raised",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((transmit \\ credit \\geq max) \\to (credit \\ error))",
+        "f_code": "G((transmit_credit >= max) --> (credit_error))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1019,
+    "status": "OK",
+    "text": "The data link layer shall keep a credit count of the number of N-Chars it has asked for by passing FCTs to the encoding layer and has yet to receive from the encoding layer (receive credit count) as follows: 1.Increment the receive credit count by eight each time an FCT is passed to the encoding layer. 2.Decrement the receive credit count by one each time an NChar is received from the encoding layer",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((FCT \\ passed) \\to (receive \\ credit := receive \\ credit +8)) \\newline \\Box((Nchar \\ received) \\to (receive \\ credit := receive \\ credit -1))",
+        "f_code": "G((FCT_passed) --> (receive_credit_plus_8)) and G((NChar_received) --> (receive_credit_minus_1))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1020,
+    "status": "OK",
+    "text": "The data link layer shall keep a credit count of the number of NChars it has been authorized to send (transmit credit count), as follows: 1.Each time the data link layer receives an FCT from the encoding layer it increments its transmit credit count by eight. 2.Whenever the data link layer sends an NChar to the encoding layer it decrements its transmit credit count by one",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((FCT \\ received) \\to (credit:= credit +1)) \\newline \\Box((NChar \\ sent) \\to (credit := credit -1))",
+        "f_code": "G((FCT_received) --> (credit_plus_1)) and G((NChar_sent) --> (credit_minus_1))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1021,
+    "status": "OK",
+    "text": "The receive credit count shall be set to zero whenever the link state machine enters the ErrorReset state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((ErrorReset \\ state) \\to (set \\ receive \\ credit :=0))",
+        "f_code": "G((ErrorReset_state) --> (set_receive_credit ==0))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1022,
+    "status": "OK",
+    "text": "An FCT shall only be sent when there is room in the data link layer to receive another eight more N-Chars from the encoding layer and when the receive credit count has a value of eight or more less than its maximum value",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((enough \\ room \\ for \\ 8 \\ Nchar) \\wedge ((receive \\ credit := 8 ) \\vee (receive \\ credit \\geq max)) , \\newline \\to  (send \\ FCT))",
+        "f_code": "G(((enough_room_for_8_NChar) and ((receive_credit == 8 ) or (receive_credit >= max))) --> (send_FCT))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1023,
+    "status": "OK",
+    "text": "A credit error shall be detected when either of the following conditions occur: 1.An NChar is received when the receive credit counter is zero. 2.An FCT is received which causes the transmit counter to exceed its maximum permitted value",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box(((Nchar \\ received \\wedge credit \\ counter :=0) \\vee (transmit \\ counter \\geq max)) \\newline \\to (credit \\ error \\ detected)) ",
+        "f_code": "G(((NChar_received and credit_counter ==0) or (transmit_counter >= max)) --> (credit_error_detected)) ",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1024,
+    "status": "OK",
+    "text": "When in the ErrorWait state, the Link state machine shall initiate the following actions: 1.Start a 12,8 micro second timer on entering the ErrorWait state. 2.Deassert the Transmit Enable control flag. 3.Assert the Receive Enable control flag without storing any NChars received from the Encoding Layer in the RX FIFO and without registering any broadcast codes received from the Encoding Layer",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((ErrorWait \\ state) \\to ((start \\ timer_{12.8}) \\wedge (De-assert \\ transmit \\ enable \\ flag) \\wedge (assert\\ Recieve \\ enable \\ flag) \\wedge \\neg(NChar \\ stored) \\wedge \\neg(register \\ broadcast \\ code) ))",
+        "f_code": "G((ErrorWait_state) --> ((start_timer12) and (De_assert_transmit_enable_flag) and (assert_Recieve_enable_flag) and not(NChar_stored) and not(register_broadcast_code) ))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1025,
+    "status": "OK",
+    "text": "When in the Started state, the Link state machine shall initiate the following actions: 1.Start a 12,8 micro second timer on entering the Started state. 2.Assert the Transmit Enable control flag, but only pass Nulls to the Encoding Layer. 3.Assert the Receive Enable control flag without storing any N-Chars received from the Encoding Layer in the RX FIFO and without registering any broadcast codes received from the Encoding Layer",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((started \\ state) \\to ((start \\ timer_{12.8}) \\wedge ((transmit \\ control \\ flag) \\wedge (only \\ pass \\ Nulls))\\wedge((Receive \\ control \\ flag) \\wedge \\neg (storing \\ NChar) \\wedge \\neg(register \\ code)))",
+        "f_code": "G( (started_state) --> ( (start_timer12) and ((transmit_control_flag) and ((only_pass_Nulls) and ((Receive_control_flag)) and ((not(storing_NChar) and not(register_code))))) ))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1026,
+    "status": "OK",
+    "text": "When in the Connecting state, the Link state machine shall initiate the following actions: 1.Start a 12,8 micro second timer on entering the Connecting state. 2.Assert the Transmit Enable control flag, but only pass FCTs and Nulls to the Encoding Layer, following the rules described in clause 5.5.6. 3.Assert the Receive Enable control flag without storing any N-Chars received from the Encoding Layer in the RX FIFO and without registering any broadcast codes received from the Encoding Layer",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((connecting \\ state) \\to ((start \\ timer_{12.8}) \\wedge (transmit \\ control \\ flag) \\wedge (only \\ pass \\ FCTs) \\wedge (Receive \\ control \\ flag) \\wedge \\neg (storing \\ NChar) \\wedge \\neg(register \\ code)))",
+        "f_code": "G((connecting_state) --> ( ((start_timer12) and (transmit_control_flag)) and (((only_pass_FCTs) and (Receive_control_flag)) and ((not storing_NChar) and (not register_code))) ))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1027,
+    "status": "OK",
+    "text": "When in the ErrorReset state, the link state machine shall initiate the following actions: 1.De-assert the Transmit Enable control flag. 2.De-assert the Receive Enable control flag. 3.Set the transmit credit counter to zero. 4.Set the receive credit counter to zero. 5.Clear the gotFCT condition. 6.Start a 6,4 µs timer on entering the ErrorReset state. De-asserting the Receive Enable control flag causes the Encoding layer to clear the gotNull condition",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((ErrorReset \\ state) \\to \\newline ((De-assert \\ control \\ flag) \\wedge (De-assert\\ Receive \\ enable \\ flag) \\newline \\wedge (set \\ transnit \\ credit {:=} 0) \\wedge (set \\ receive \\ credit :=0) \\wedge (clear \\ gotFCT) \\newline  \\wedge (start \\ timer_{6.4}) ))",
+        "f_code": "G((ErrorReset_state) --> ((De_assert_control_flag) and (De_assert_Receive_enable_flag) and (set_transnit_credit == 0) and (set_receive_credit ==0) and (clear_gotFCT) and (start_timer6) ))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1028,
+    "status": "OK",
+    "text": "The SpaceWire receiver shall be tolerant of simultaneous transitions on the Data and Strobe lines. Being tolerant of simultaneous transitions means that there is no lock-up of the receiver when a simultaneous transition occurs. Simultaneous transitions on the Data and Strobe lines are not part of the normal operation of SpaceWire. They can occur, however, either when a SpaceWire cable is plugged in while the transmitter is trying to make a connection, or when the LVDS driver or receiver circuits are enabled while transmitter is trying to make a connection",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box ((simultaneous \\ transition) \\to (no \\ lock-up))",
+        "f_code": "G((simultaneous_transition)--> (no_lock_up))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1029,
+    "status": "OK",
+    "text": "When a node supports sending of interrupt codes and the host requests an interrupt to be sent, an interrupt code with the interrupt identifier matching the interrupt shall be passed to the data link layer for sending",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((interrupt \\ codes \\ supported) \\wedge (interrupt \\ send \\ request) \\to \\newline  (interrupt \\ code \\ passed))",
+        "f_code": "G(((interrupt_codes_supported) and (interrupt_send_request)) --> (interrupt_code_passed))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1030,
+    "status": "OK",
+    "text": "When in the Connecting state, the Link state machine shall initiate the following actions: 1.Start a 12,8 µs timer on entering the Connecting state. 2.Assert the Transmit Enable control flag, but only pass FCTs and Nulls to the Encoding Layer, following the rules described in clause 5.5.6. 3.Assert the Receive Enable control flag without storing any N-Chars received from the Encoding Layer in the RX FIFO and without registering any broadcast codes received from the Encoding Layer",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((Connecting \\ state) \\to \\newline  ((start \\ timer) \\wedge (assert \\ transmit \\ enable \\ flag) \\wedge ((assert \\ receive \\ enable \\ flag) \\wedge \\neg(NChar \\in RX \\ FIFO) \\newline  \\wedge \\neg (register \\ broadcast \\ code))))",
+        "f_code": "G((Connecting_state) --> ((start_timer) and (assert_transmit_enable_flag) and ((assert_receive_enable_flag) and not(NChar_in_RX_FIFO) and not(register_broadcast_code))))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1031,
+    "status": "OK",
+    "text": "If an input port is waiting for packet characters to arrive, the output port that it is connected to shall also wait. If an output port is waiting to transmit packet characters, the input port it is connected to shall also wait",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((input \\ port \\ waiting) \\leftrightarrow (output \\ port \\ waiting) )",
+        "f_code": "G(((input_port_waiting) --> (output_port_waiting)) and((output_port_waiting) --> (input_port_waiting)) )",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 1032,
+    "status": "OK",
+    "text": "When the output port finishes transmission of a packet, it shall be available to accept a packet from another input port",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "\\Box((pocket \\ transmission \\ finished) \\to (accept \\ pocket \\ available))",
+        "f_code": "G((pocket_transmission_finished) --> (accept_pocket_available))",
+        "translation": "self",
+        "reasoning": "just one temporal operator, simple, minimal"
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2001,
+    "status": "OK",
+    "text": "A SpaceWire Port shall incorporate a transmit FIFO (TX FIFO) which stores N-Chars provided by the application via the SpaceWire port interface until they can be sent across the link.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((Nchar \\ provided ) \\to ((NChar \\in TXFIFO) \\mathcal{U} \\ (NChar \\ sent)))",
+        "f_code": "G((NChar_provided) --> ((NChar_TXFIFO) U (NChar_sent)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2002,
+    "status": "OK",
+    "text": "A SpaceWire Port shall incorporate a receive FIFO (RX FIFO) which stores received N-Chars until they can be read by the application via the SpaceWire port interface.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((NChar \\ received ) \\to ((NChar \\in RXFIFO) \\mathcal{U} \\ (NChar \\ read)))",
+        "f_code": "G((NChar_received) --> ((NChar_TXFIFO) U (NChar_read)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2003,
+    "status": "OK",
+    "text": "Null is passed to the encoding layer by the data link layer whenever a link is not sending data or control symbols, to keep the link active and to support link disconnect detection.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((\\neg((data \\vee control \\ symbol) \\ sent) \\to \\nex (Null \\ passed ))",
+        "f_code": "G((not (sent_data or sent_control_symbol)) --> X(null_passed))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2004,
+    "status": "OK",
+    "text": "When the SpaceWire output port is reset, it shall be a controlled reset avoiding simultaneous transitions of Data and Strobe signals. For example, after stopping transmission the Strobe signal can be reset first, followed by the Data signal. This prevents a simultaneous transition on the data and strobe signals which can cause some IEEE 1355-1995 devices to enter an unrecoverable fault state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "(output \\ port \\ reset) \\ \\to \\newline \\Box \\neg(data \\ transition \\wedge \\ Strobe \\ signal \\ transition) , \\newline \\Box( (transmition \\ stopped) \\to (\\nex (reset \\ strobe \\ signal) \\wedge \\nex \\nex (reset \\ data \\ signal)))",
+        "f_code": "((output_port_reset) --> G (not(data_transition) and not(Strobe_signal_transition))) and G( (transmition_stopped) --> (X (reset_strobe_signal) and X X(reset_data_signal)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2005,
+    "status": "OK",
+    "text": "gotNull shall be asserted when the first Null after the receiver is enabled is detected",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((receiver \\ enabled) \\to (\\neg (gotNull \\ assert) \\until (Null \\ detected))) ",
+        "f_code": "G((receiver_enabled) --> (not (gotNull_assert) U (Null_detected))) ",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2006,
+    "status": "OK",
+    "text": "The disconnect detection shall be enabled when the link state machine leaves the ErrorReset state and the first edge is detected on the Data or Strobe line",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((state \\ machine \\ leaves \\ ErrorReset) \\to \\newline (\\neg (disconnect \\ detection \\ enable) \\until ( data \\ edge \\ detected) \\newline  \\vee (Strobe \\ line \\ edge \\ detected)))",
+        "f_code": "G( (state_machine_leaves_ErrorReset) --> (not(disconnect_detection_enable) U ((data_edge_detected) or (Strobe_ine_edge_detected))) )",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2007,
+    "status": "OK",
+    "text": "An escape character (ESC) followed by ESC, EOP or EEP is an invalid sequence and when received shall produce an ESC error. ESC followed by FCT is a Null and ESC followed by a data character is a broadcast code",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box(((ESC \\ received \\ \\wedge \\nex ESC \\ received ) \\vee (ESC \\ received \\ \\wedge \\ \\nex EOP) \\vee (ESC \\ received \\ \\wedge \\ \\nex EEP \\ received )) \\to (ESC \\ error)) \\newline \n\\Box((ESC \\ received \\ \\wedge \\ \\nex FCT \\ received) \\to (Null), \\newline  \\Box((ESC \\ received \\ \\wedge \\nex data \\ received) \\to (broadcast \\ code))",
+        "f_code": "G( (((ESC_received and X ESC_received) or (ESC_received and X EOP_received)) or (ESC_received and X EEP_received )) --> (ESC_error) ) and G( (ESC_received and X FCT_received) --> Null) and G((ESC_received and X data_received) --> (broadcast_code) )",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2008,
+    "status": "OK",
+    "text": "The data link layer shall not send any N-Chars to the encoding layer until it has received one or more FCTs from the encoding layer to indicate that the data link layer at the other end of the link is ready to receive N-Chars",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box(\\neg(send \\ NChar) \\ \\until (FCT \\ received))",
+        "f_code": "G(not(send_NChar) U (FCT_received))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2009,
+    "status": "OK",
+    "text": "Parity Error, ESC Error, gotFCT, gotN-Char and gotBC are only enabled after the first Null has been received (i.e. gotNull asserted)",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((first \\ Null \\ recieved) \\to \\nex((Parity \\ Error \\ enable) \\wedge (ESC \\ Error \\ enable) \\wedge (gotFCT \\ enable) \\wedge (gotN-Char \\ enable) \\wedge (gotBC \\ enable)))",
+        "f_code": "G((first_Null_received) --> X((Parity_Error_enable) and (ESC_Error_enable) and (gotFCT_enable) and (gotNChar_enable) and (gotBC_enable)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2010,
+    "status": "OK",
+    "text": "Disconnect Error is only enabled after the first transition on the data or strobe line",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box(((first \\ data \\ transition)\\vee (first \\ strobe \\ line \\ transition )) \\to \\newline  \\nex (Disconnect \\ Error \\ enable) )",
+        "f_code": "G(((first_data_transition) or (first_strobe_line_transition )) --> X (Disconnect_Error_enable) )",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2011,
+    "status": "OK",
+    "text": "When Port Reset is asserted, the following actions shall occur: 1.The TX FIFO and RX FIFO are cleared 2.The link state machine enters the ErrorReset state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((Port \\ Reset \\ asserted) \\to \\newline  ((TX \\ FIFO \\ cleared) \\ \\wedge \\ (RX \\ FIFO \\ cleared) \\wedge \\nex (ErrorReset \\ state)))",
+        "f_code": "G((Port_Reset_asserted) --> ((TX_FIFO_cleared) and (RX_FIFO_cleared) and X (ErrorReset_state)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2012,
+    "status": "OK",
+    "text": "If the transmit credit count reaches zero, the data link layer shall cease sending NChars to the encoding layer until it receives another FCT from the encoding layer which increases the transmit credit count to eight. When the transmit credit count is zero, the data link layer continues to send FCTs, Nulls and broadcast codes to the encoding layer",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((transmit \\ credit :=0 ) \\to ((stop \\ sending \\ Nchar) \\ \\until (transmit \\ credit :=8)), \\newline \\Box((transmit \\ credit :=0 ) \\to ( send \\ (FCT \\wedge Null \\wedge codes)))",
+        "f_code": "G((transmit_credit ==0 ) --> ((stop_sending_NChar) U (transmit_credit == 8))) and G((transmit_credit == 0 ) --> ( send_FCT and ( send_Null and send_codes)) )",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2013,
+    "status": "OK",
+    "text": "When the link is initialised or re-initialised, one FCT shall be sent for every eight N-Chars that can be held in the receive FIFO up to the maximum of seven FCTs",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((link \\ state:(initialised \\vee \\ reinitialised)) \\to \\newline  (((8 \\ NChar \\ held) \\to \\nex(one \\ FCT \\ sent)) \\ \\until \\ (Num \\ sent \\ FCT \\leq 7)))",
+        "f_code": "G( (link_state_initialised or link_state_reinitialised) --> ( ((eight_NChar_held) --> X(one_FCT_sent)) U (Num_sent_FCT <= 7) ) )",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2014,
+    "status": "OK",
+    "text": "The Link state machine shall leave the Run state on one of the following conditions: 1.When LinkDisabled is asserted, move to the ErrorReset state. 2.When a disconnect occurs, move to the ErrorReset state. 3.When a parity error occurs, move to the ErrorReset state. 4.When an ESC error occurs, move to the ErrorReset state. 5.When a credit error occurs, move to the ErrorReset state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box (((LinkDisabled \\vee (disconnect) \\vee (parity \\ error) \\newline \\vee (ESC error) \\vee (credit error)) \\to \\nex (ErrorReset \\ state))",
+        "f_code": "G ( ( ((((LinkDisabled or disconnect) or parity_error) or ESC_error) or credit_error) ) --> X (ErrorReset_state) )",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2015,
+    "status": "OK",
+    "text": "When the link state machine is in the Run state and sending of a broadcast code is requested, it shall be sent as soon as the data link layer has finished sending the current character or control code",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box(((link \\ machine : Run \\ state) \\wedge (broadcast \\ code \\ requested)) \\to \\newline  ((current \\ character \\ finished) \\to \\nex (broadcast \\ code sent)))",
+        "f_code": "G(((link_machine_Run_state) and (broadcast_code_requested)) --> ((current_character_finished) --> X (broadcast_code_sent)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2016,
+    "status": "OK",
+    "text": "When sending of an FCT is requested, it shall be sent as soon as the current character or control code has been sent provided that: No broadcast code is waiting to be sent",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((FCT \\ requested) \\to (\\neg (FCT \\ sent) \\ \\until \\ (current \\ character \\ sent)))",
+        "f_code": "G((FCT_requested) --> (not (FCT_sent) U (current_character_sent)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2017,
+    "status": "OK",
+    "text": "When the link state machine is in the Run state and an NChar is available in the transmit buffer, it shall be sent as soon as the current character or control code has been sent provided that: 1.No broadcast code is waiting to be sent. 2.No FCT is waiting to be sent. 3.The transmit control credit count is above zero",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box(((link \\ machine \\ state: Run) \\wedge (N Char \\ available)) \\to \\newline  (\\neg (send \\ NChar) \\ \\until \\ ((current \\ Char \\ sent) \\newline  \\wedge (No \\ waiting \\ code) \\wedge (No \\ waiting \\ FCT) \\wedge (transmit \\ credit \\geq 0))))",
+        "f_code": "G(((link_machine_state_Run) and (NChar_available)) --> (not (send_NChar) U ((current_Char_sent)and (No_waiting_code) and (No_waiting_FCT) and (transmit_credit >= 0))))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2018,
+    "status": "OK",
+    "text": "When LinkDisabled is asserted in the Ready state, the link state machine remains in the Ready state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box (((LinkDisabled \\ asserted)\\wedge (Ready \\ state)) \\to \\nex (\\Box(Ready \\ state)))",
+        "f_code": "G (((LinkDisabled_asserted) and (Ready_state)) --> X (G(Ready_state)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2019,
+    "status": "OK",
+    "text": "When LinkDisabled is asserted in the Run state, the link state machine moves to the ErrorReset state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box (((LinkDisabled \\ asserted)\\wedge (Run \\ state)) \\to \\nex (ErrorReset \\ state))",
+        "f_code": "G (((LinkDisabled_asserted) and (Run_state)) --> X(ErrorReset_state))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2020,
+    "status": "OK",
+    "text": "The Link state machine shall leave the Ready state on one of the following conditions: 1.When LinkDisabled is asserted, move to the ErrorReset state. 2.When a disconnect occurs, move to the ErrorReset state. 3.When a parity error occurs, move to the ErrorReset state. 4.When an ESC error occurs, move to the ErrorReset state. 5.When an FCT, N-Char or broadcast code is received from the Encoding Layer, move to the ErrorReset state. 6.When LinkStart is asserted, move to the Started state. 7.When AutoStart is asserted and gotNull is asserted, move to the Started state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((LinkDisabled) \\to \\nex (ErrorReset)), \\newline  \\Box((disconnect) \\to \\nex (ErrorReset)), \\Box((parity) \\to \\nex (ErrorReset)), \\newline  \\Box((ESC Error) \\to \\nex (ErrorReset)), \\newline  \\Box( (FCT \\ received) \\vee (N-char \\ received) \\vee (broadcast \\ received)) \\newline \\to  \\nex (ErrorReset)), \\newline \\Box((LinkStart \\ asserted)\\to\\nex(Started \\ state)), \\newline  \\Box(((AutoStart \\ asserted) \\vee (gotNull \\ asserted )) \\to \\nex (Started \\ state))",
+        "f_code": "G((LinkDisabled) --> X (ErrorReset)) and G((disconnect) --> X (ErrorReset)) and G((parity) --> X (ErrorReset)) and G((ESC_Error) --> (ErrorReset)) and G(((FCT_received) or (NChar_received) or (broadcast_received)) --> X(ErrorReset)) and G((LinkStart_asserted) --> X(Started_state)) and G(((AutoStart_asserted) or (gotNull_asserted)) --> X(Started_state))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2021,
+    "status": "OK",
+    "text": "This alternative behaviour allows the link state machine of the previous version of the SpaceWire standard ECSS-E-ST-50-12C (31 July 2008) to be used. The improvement in the current version (Revision 1) means that the link state machine immediately moves to and remains in the ErrorReset state with the receiver disabled, when Disable is asserted. The functions of Disable/Enable, Link Start and Autostart have been separated for clarity",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box ((receiver \\ Disable \\ asserted ) \\to \\nex (\\Box(ErrorReset \\ State)))",
+        "f_code": "G ((receiver_Disable_asserted ) --> X (G(ErrorReset_State)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2022,
+    "status": "OK",
+    "text": "When Port Reset is asserted, the Link Error Recovery state machine shall enter the Normal state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box ((PortReset \\ asserted) \\to \\newline  \\nex (Link \\ Error \\ Recovery \\ state \\ machine \\ state: Normal))",
+        "f_code": "G ((PortReset_asserted) --> X (Link_Error_Recovery_state_machine_Normal))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2023,
+    "status": "OK",
+    "text": "The Link Error Recovery state machine shall leave the Normal state on the following conditions: 1.When the Link state machine is in the Run state and LinkDisabled is asserted, the Link Error Recovery state machine moves to the Recovery state. 2.When the Link state machine is in the Run state and a Disconnect, Parity Error, ESC Error, or Credit Error occurs, the Link Error Recovery state machine moves to the Recovery state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box (((Run \\ State) \\wedge (LinkDisabled \\ asserted))\\to  \\nex(Recovery \\ state)),\\newline \\Box(((Run \\ state ) \\wedge ((Disconnect) \\vee (Parity \\ Error) \\vee (ESC \\ Error) \\vee (Credit \\ Error)))\\to  \\newline \\nex(Recovery \\ state))",
+        "f_code": "G (((Run_State) and (LinkDisabled_asserted)) --> X(Recovery_state)) and G( ( (Run_state ) and ((Disconnect) or ((Parity_Error) or ((ESC_Error) or (Credit_Error))) ) ) --> X(Recovery_state))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2024,
+    "status": "OK",
+    "text": "When in the Recovery state, the Link Error Recovery state machine shall initiate the following actions: 1.If currently sending a packet, discard the remainder of the packet that has not yet been sent. 2.If the last character written to the receive FIFO was a data character, write an EEP to the receive FIFO. 3.When the last character written was an EOP or EEP, another EEP can be added to the receive FIFO. 4.If an EEP is pending, ready for writing to the receive FIFO and that FIFO is full preventing an EEP being written, wait until there is space in the receive FIFO and then write the EEP. 5.Record the cause of the error in a status register",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((Recovery \\ state) \\to ((sending \\ current \\ packet) \\to ((a \\ packet \\ not \\ sent) \\to \\nex(discard \\ remainder))); \\newline \n \\Box((Recovery \\ state) \\to ((last \\ character \\ data)\\to \\nex(EEP \\ sent \\ to \\ receive \\ FIFO))), \\newline \n \\Box((Recovery \\ state) \\to ((last \\ character \\ (EOP \\vee EEP) )\\to \\nex(EEP \\ sent \\ to \\ receive \\ FIFO))), \\newline \n \\Box((Recovery \\ state) \\to (( EEP \\ pending) \\wedge (FIFO \\ full) )\\to ((EEP \\ wait) \\ \\until \\ (EEP \\in receive \\ FIFO)) \\to \\nex(write \\ EEP)); \\newline \n \\Box((Recovery \\ state) \\to ((error) \\to \\nex (Record \\ error)))",
+        "f_code": "G((Recovery_state) --> (((sending_current_packet) and (a_packet_not_sent)) --> X(discard_remainder))) and (G((Recovery_state) --> ((last_character_is_data) --> X(EEP_sent_to_receive_FIFO))) and (G((Recovery_state) --> ((last_character_EOP or last_character_EEP) --> X(EEP_sent_to_receive_FIFO))) and (G((Recovery_state) --> ( (((EEP_pending) and (FIFO_full)) --> ((EEP_wait) U (EEP_in_receive_FIFO))) --> X(write_EEP))) and G((Recovery_state) --> ((error) --> X (Record_error))))))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2025,
+    "status": "OK",
+    "text": "If one or more N-Chars have been sent since the link reached the Run state AND the last character sent was not an EOP or EEP, read the transmit FIFO and discard the characters read until an EOP or EEP has been read and discarded",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box(( (Run \\ state \\ started) \to (min \\ one \\ NChar \\ sent)  \\wedge \\neg(last \\ char \\ (EOP \\vee EEP))) \\to  \\newline \\nex(((read \\ transmit \\ FIFO) \\wedge (discard \\ characters)) \\ \\newline \\until \\ ((EOP \\vee EEP \\ read) \\wedge (EOP \\vee EEP \\ discarded))))",
+        "f_code": "G(  ((Run_state_started) --> ((NChar_sent) and not(last_char_EOP or EEP)))  --> X(((read_transmit_FIFO) and (discard_characters)) U ((EOP_read or EEP_read) and (EOP_discard or EEP_discarded)))  )",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2026,
+    "status": "OK",
+    "text": "If the receive FIFO is full it is not possible for the transmitter to send an FCT, hence the link initialisation cannot be completed. The link state machine cycles through the ErrorReset, ErrorWait, Ready and Started state and then times out in the Connecting state because no FCT can be received. When there is room for at least eight N-Chars, at least one FCT can be sent so the link initialisation process is then able to complete successfully.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((receive \\ FIFO \\ full) \\to \\neg \\Diamond (send \\ FCT)), \\newline \n \\Box ((8 \\ NChar \\ room ) \\to \\nex(send \\ FCT))",
+        "f_code": "G((receive_FIFO_full) --> not F(send_FCT)) and G((eight_NChar_room ) --> X(send_FCT))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2027,
+    "status": "OK",
+    "text": "The Link Error Recovery state machine shall leave the Recovery state on the following conditions: When all error recovery actions, listed in 5.5.8.4.b are successfully completed, move to the Normal state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((all \\ error \\ recovery \\ actions \\ completed) \\to \\nex(normal \\ state))",
+        "f_code": "G((all_error_recovery_actions_completed) --> X(normal_state))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2028,
+    "status": "OK",
+    "text": "An output port shall not transmit any other packet until the packet that it is currently transmitting has finished being sent or has been terminated following an error",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box(\\neg(transmit \\ packet) \\until ((current \\ packet \\ sent)\\vee (error \\ transmit)))",
+        "f_code": "G(not(transmit_packet) U ((current_packet_sent) or (error_transmit)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2029,
+    "status": "OK",
+    "text": "If the allocated output port is busy, the newly arrived packet shall wait at the input port until the allocated output port is free to transmit the new packet",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((allocated \\ output \\ port \\ busy) \\to ((arrived \\ packet \\ wait) \\until (output \\ port \\ free)))",
+        "f_code": "G((allocated_output_port_busy) --> ((arrived_packet_wait) U (output_port_free)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2030,
+    "status": "OK",
+    "text": "When the allocated output port becomes free, the input port connected to it after arbitration shall transfer one packet to the output port and then free the output port for subsequent arbitration and use by the same or another input port",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((output \\ port \\ free) \\to ((packet \\ transfer) \\wedge \\nex (free \\ output \\ port)))",
+        "f_code": "G((output_port_free) --> ((packet_transfer) and X (free_output_port)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2031,
+    "status": "OK",
+    "text": "If one or more of the output ports in the multicast set cannot accept a new N-Char during packet transfer, the input port waits, and the N-Char is not sent to any of the multicast output ports until they are all ready",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box(\\neg (N-Char \\ accepted) \\to  \\newline ((input \\ port \\ wait) \\wedge (\\neg (N-Char \\ sent) \\ \\until (multicast \\ output \\ ports \\ ready))))",
+        "f_code": "G(not (NChar_accepted) --> ((input_port_wait) and (not (NChar_sent) U (multicast_output_ports_ready))))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": "unbounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2032,
+    "status": "OK",
+    "text": "On receipt of the DISTRIBUTED-INTERRUPT.request primitive the SpaceWire end-point shall immediately send the interrupt code through its port",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((DISTRIBUTED-INTERRUPT \\ received) \\to \\nex (send \\ interrupt \\ code))",
+        "f_code": "G((DISTRIBUTED_INTERRUPT_received) --> X (send_interrupt_code))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2033,
+    "status": "OK",
+    "text": "On receipt of the BROADCAST-CODE.request primitive the port shall send the broadcast code immediately after the character current has finished being sent",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((BROADCAST-CODE \\ received) \\to  \\newline ((Character \\ sent) \\to \\nex (broadcast \\ code \\ sent)))",
+        "f_code": "G((BROADCAST_CODE_received) --> ((Character_sent) --> X (broadcast_code_sent)))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2034,
+    "status": "OK",
+    "text": "The effect on receipt of the DISCONNECT.indication primitive by the data link layer shall be for data link layer to move to the ErrorReset state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((DISCONNECT \\ received) \\to \\nex (ErrorReset \\ state))",
+        "f_code": "G((DISCONNECT_received) --> X (ErrorReset_state))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2035,
+    "status": "OK",
+    "text": "The effect on receipt of the RECEIVE-ERROR.indication primitive by the data link layer shall be for data link layer to move to the ErrorReset state",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box((RECEIVE-ERROR \\ received) \\to \\nex (ErrorReset \\ state))",
+        "f_code": "G((RECEIVE_ERROR_received) --> X (ErrorReset_state))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2036,
+    "status": "OK",
+    "text": "The function of the gotNull.indication primitive shall be to indicate to the data link layer that the first Null has been received after the receiver has been enabled",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box(((receiver \\ enabled) \\to \\Diamond (Null \\ received)) \\to (gotNull \\ indicated))",
+        "f_code": "G(((receiver_enabled) --> F(Null_received)) --> (gotNull_indicated))",
+        "translation": "self",
+        "reasoning": "until/next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 2037,
+    "status": "OK",
+    "text": "The gotNull.indication primitive shall be passed to the data link layer, when the first Null is received without any errors after the receiver has been enabled.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box ( receiverEnabled \\to \\newline \\nex (\\Box (firstNullReceivedWithoutError)) \\to gotNullPassed))",
+        "f_code": "G( receiver_enabled --> X(G(first_null_received_without_error) --> got_null_passed))",
+        "translation": "self",
+        "reasoning": "next operator"
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3001,
+    "status": "OK",
+    "text": "The Link state machine shall leave the ErrorReset state on the following condition: When the 6,4 µs timer is elapsed and LinkDisable is de-asserted, move to the ErrorWait state.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box((\\Diamond_{6.4 \\mu s} (LinkDisable \\ deasserted) \\to \\nex (ErrorWait \\ state))",
+        "f_code": "G((F(linkdisable_deasserted) --> X(state_errorwait)))",
+        "translation": "self",
+        "reasoning": "bounded diamond"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3002,
+    "status": "OK",
+    "text": "When a SpaceWire output port has been transmitting characters and the link state machine enters the ErrorReset state (see clause 5.5.7.2), the data and strobe signals shall be reset with a delay between the reset of the strobe followed by data signal or reset of the data followed by strobe signal.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box((output \\ port \\ transmitting) \\wedge (ErrorReset \\ state) \\to   \\newline \\Diamond_{(0,delay)} (reset \\ (data \\wedge Strobe))) \\newline delay {:=} (t_2 - t_1) \\vee (t_1 - t_2), t_1 \\newline  {:=} strobe \\ reset, t_2 \\newline  {:=} data \\ reset",
+        "f_code": "G(((output_port_transmitting) and (ErrorReset_state)) --> F(reset_data and reset_Strobe)) ",
+        "translation": "self",
+        "reasoning": "bounded diamond"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3003,
+    "status": "OK",
+    "text": "The Link state machine shall leave the ErrorWait state on one of the following conditions which are evaluated in the order given: 1.When LinkDisabled is asserted, move to the ErrorReset state. 2.When a disconnect occurs, move to the ErrorReset state. 3.When a parity error occurs, move to the ErrorReset state. 4.When an ESC error occurs, move to the ErrorReset state. 5.When an FCT, N-Char or broadcast code is received from the Encoding Layer, move to the ErrorReset state. 6.When the 12,8 µs timer is elapsed, move to the Ready state.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box(((LinkDisabled) \\to \\newline  \\nex(ErrorReset \\ state)) \\vee (Disconnect \\to \\nex (ErrorReset \\ state)) \\vee ((Parity \\ Error) \\to \\nex (ErrorReset \\ state)) \\vee ((ESC \\ Error) \\to  \\newline  \\nex (ErroeReset \\ state)) \\vee (((FCT \\vee NChar \\vee broadcast \\ code) \\ received) \\to \\newline \\nex (ErrorReset \\ state)) \\vee (\\Diamond_{12.8} (Ready \\ state)))",
+        "f_code": "G(((LinkDisabled)--> X(ErrorReset_state)) or (Disconnect --> X(ErrorReset_state)) or ((Parity_Error) --> X (ErrorReset_state)) or ((ESC_Error) --> X (ErrorReset_state)) or ((FCT or NChar or broadcast_code) --> X(ErrorReset_state)) or (F(Ready_state)))",
+        "translation": "self",
+        "reasoning": "bounded diamond"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3004,
+    "status": "OK",
+    "text": "The delay between the reset of the Strobe signal and the Data signal shall be between 500 ns (the period of slowest permitted transmit bit rate, 2 Mbps) and the period of the fastest transmit time for the particular transmitter which is dependent upon implementation.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box((reset \\ strobe \\ signal) \\to \\Diamond_{(p,500 ns)} (reset \\ data \\ signal)) ",
+        "f_code": "G((reset_strobe_signal) --> F(reset_data_signal))",
+        "translation": "self",
+        "reasoning": "bounded diamond"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3005,
+    "status": "OK",
+    "text": "A disconnect shall occur when the length of time since the last transition on either the Data or Strobe line is longer than 727 ns (8 cycles of 10 MHz clock + 10 ) and 1 µs maximum (9 cycles of 10 MHz clock - 10 ).",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box(\\neg(data \\ transmitted)\\mathcal{S}_{727 \\ ns} \\newline ((Data \\vee Strobe) \\ transmitted)\\to (disconnect))",
+        "f_code": "G(((Data_transmitted or Strobe_transmitted) and F(not(data_transmitted))) --> (disconnect)) ",
+        "translation": "self",
+        "reasoning": "bounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3006,
+    "status": "OK",
+    "text": "A packet shall be regarded by a port as being stuck when the following conditions are all fulfilled: 1.It has started. 2.It has not yet ended. 3.The time since the last data character was sent from the input port to the output port is longer than the port time-out period.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box(((packet \\ started)\\wedge \\neg(packet \\ ended) \\wedge (\\neg(data \\ sent)\\mathcal{S}_{(0,t)} \\newline (last \\ data \\ sent)))\\to (packet \\ stuck)), \\newline t=time-out \\ period",
+        "f_code": "G(((packet_started) and not(packet_ended) and (last_data_sent) and F(time_out_period)) --> (packet_stuck))",
+        "translation": "self",
+        "reasoning": "bounded until operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3007,
+    "status": "OK",
+    "text": "The transition from the Started state to the ErrorReset state has “after 12,8 µs” in black (dark text) which is intentional as this transition is normal operation and not an error condition. It occurs when this end of the line is trying to start and the other end is disabled. The transition from the Connecting state to the ErrorReset state has “after 12,8 µs” in red (lighter text) because it is an error: although a Null has been received indicating that the other end of the link is active, no FCT is received within 12,8 µs so it is a fault.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box(((Started \\ state) \\to \\Diamond_{(0, 14.33 \\mu s)}(ErrorReset \\ state)) \\to (no_error)) , \\newline \\Box((Connecting \\ state) \\to \\newline \\Diamond_{(0, 14.33 \\mu s)} \\neg(FCT \\ received) \\to (ErrorReset \\ state)))",
+        "f_code": "G( (((Started_state) --> F(ErrorReset_state)) --> (no_error)) and ((Connecting_state) --> (F(not (FCT_received)) --> (ErrorReset_state))))",
+        "translation": "self",
+        "reasoning": "bounded diamond operator"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3008,
+    "status": "OK",
+    "text": "The Link state machine shall leave the Started state on one of the following conditions: 1.When LinkDisabled is asserted, move to the ErrorReset state. 2.When a disconnect occurs, move to the ErrorReset state. 3.When a parity error occurs, move to the ErrorReset state. 4.When an ESC error, move to the ErrorReset state. 5.When an FCT, N-Char or broadcast code is received from the Encoding Layer, move to the ErrorReset state. 6.When enable is asserted, at least one Null has been sent and gotNull is asserted, move to the Connecting state. 7.12,8 µs after entering the Started state, move to the ErrorReset state.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box(((LinkDisabled \\ asserted) \\to \\nex(Error \\ Reset \\ state)) \\vee ((disconnect) \\to \\nex (ErrorReset \\ state)) \\vee ((parity \\ error) \\to \\nex(ErrorReset \\ state)) \\vee ((ESC \\ error) \\to \\nex(ErrorReset \\ state)) \\vee (((FCT \\vee NChar \\vee broadcast \\ code) received ) \\to \\nex(ErrorReset \\ state)) \\vee (((enable \\ asserted) \\wedge (one \\ null \\ sent) \\wedge(gotNull \\ asserted))\\to \\nex(Connecting \\ state)) \\vee (Started \\ state) \\to \\Diamond_{12.8 \\mu s} (ErrorReset \\ state))",
+        "f_code": "G(((LinkDisabled_asserted) --> X(Error_Reset_state)) or ((disconnect) --> X (ErrorReset_state)) or ((parity_error) --> X (ErrorReset_state)) or ((ESC_error) --> X(ErrorReset_state)) or (((enable_asserted) and (one_FCT_sent) and (one_FCT_received) ) --> X(Run_state)) or (((NChar_received) or (broadcast_code_received)) --> X(ErrorReset_state)) or ((Connecting_state) --> F(ErrorReset_state))) ",
+        "translation": "self",
+        "reasoning": "bounded diamond"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3009,
+    "status": "OK",
+    "text": "The Link state machine shall leave the Connecting state on one of the following conditions: 1.When LinkDisabled is asserted, move to the ErrorReset state. 2.When a disconnect occurs, move to the ErrorReset state. 3.When a parity error occurs, move to the ErrorReset state. 4.When an ESC error occurs, move to the ErrorReset state. 5.When enable is asserted, at least one FCT has been sent and an FCT has been received (gotFCT asserted), move to the Run state. 6.When an N-Char or broadcast code is received from the Encoding Layer, move to the ErrorReset state. 7.12,8 µs after entering the Connecting state, move to the ErrorReset state.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box(((LinkDisabled \\ asserted) \\to \\nex(Error \\ Reset \\ state)) \\vee ((disconnect) \\to \\nex (ErrorReset \\ state)) \\vee ((parity \\ error) \\to \\nex(ErrorReset \\ state)) \\vee ((ESC \\ error) \\to \\nex(ErrorReset \\ state)) \\vee (((enable \\ asserted) \\wedge (one \\ FCT \\ sent) \\wedge (one \\ FCT \\ received) ) \\to \\nex(Run \\ state)) \\vee (((NChar \\ received) \\vee (broadcast \\ code \\ received)) \\to \\nex(ErrorReset \\ state)) \\vee ((Connecting \\ state) \\to \\Diamond_{12.8 \\mu s} (ErrorReset \\ state)))",
+        "f_code": "G(((LinkDisabled_asserted) --> X(Error_Reset_state)) or ((disconnect) --> X (ErrorReset_state)) or ((parity_error) --> X(ErrorReset_state)) or ((ESC_error) --> X(ErrorReset_state)) or (((enable_asserted) and (one_FCT_sent) and (one_FCT_received) ) --> X(Run_state)) or (((NChar_received) or (broadcast_code_received)) --> X(ErrorReset_state)) or ((Connecting_state) --> F(ErrorReset_state)))",
+        "translation": "self",
+        "reasoning": "bounded diamond"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3010,
+    "status": "OK",
+    "text": "When operating in interrupt mode, there should be a minimum interval between a node sending one interrupt code with a particular value and sending the next interrupt with that same value which is greater than the maximum propagation time of an interrupt code across the network.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box((interrupt \\ mode) \\to ((send \\ interrupt \\ code \\ A) \\to \\Diamond_{(0,t)} (sent \\ interrupt \\ code \\ A))), \\newline t \\geq maximum \\ propagation \\ time",
+        "f_code": "G((interrupt_mode) --> ((send_interrupt_code_A) --> F(sent_interrupt_code_A))) and t >= maximum_propagation_time",
+        "translation": "self",
+        "reasoning": "bounded diamond"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3011,
+    "status": "OK",
+    "text": "If an interrupt is used in interrupt mode and the host system requests to send an interrupt too fast after the previous identical interrupt was sent, i.e. before the corresponding interrupt time-out timer in the routing switches has expired, the new interrupt code that the node sends is discarded by a router.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box((interrupt \\ mode) \\to \\newline  ((interrupt \\ code \\ sent) \\to \\newline \\Diamond_I (interrupt \\ code \\ sent) \\to \\newline (new \\ interrupt \\ code \\ discard) )), \\newline I = corresponding \\ interrupt \\ time-out",
+        "f_code": "G(  (interrupt_mode) --> ( (interrupt_code_sent) --> (F(interrupt_code_sent) --> (new_interrupt_code_discard)) )) and I == corresponding_interrupt_timeout",
+        "translation": "self",
+        "reasoning": "bounded diamond"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3012,
+    "status": "OK",
+    "text": "When operating in interrupt acknowledgement mode, there shall be a minimum interval between a node sending one interrupt code with a particular value and sending the next interrupt with that same value which is greater than the maximum propagation time of a interrupt code across the network and the maximum time for the interrupt acknowledgement code to be generated and return across the network.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box((interrupt \\ ack \\ mode) \\to \\newline ((send \\ interrupt \\ code \\ A) \\to \\newline \\Diamond_{(0,t)} (sent \\ interrupt \\ code \\ A))), \\newline t \\geq maximum \\ propagation \\ time",
+        "f_code": "G((interrupt_ack_mode) --> ((send_interrupt_code_A) --> F(sent_interrupt_code_A))) and t >= maximum_propagation_time",
+        "translation": "self",
+        "reasoning": "bounded diamond"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3013,
+    "status": "OK",
+    "text": "There shall be a delay between the interrupt code arriving and the interrupt acknowledgement being generated, which is greater than the propagation time of the interrupt code across the network.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box((interrupt \\ code \\ arriving) \\to \\Diamond_{(0,t)} (interrupt \\newline acknowledgement)), \\newline t \\geq propagation \\ interrupt \\ code \\ time",
+        "f_code": "G((interrupt_code_arriving) --> F(interrupt_acknowledgement))and t >= propagation_interrupt_code_time",
+        "translation": "self",
+        "reasoning": "bounded diamond"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3014,
+    "status": "OK",
+    "text": "The delay between the interrupt code arriving and the interrupt acknowledgement being generated shall be less than the maximum time determined for a node to generate an interrupt acknowledgement code",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box((interrupt \\ code \\ arriving) \\to \\Diamond_{(0, t)} (interrupt \\ ack) \\ generated), \\newline t \\leq max interrupt \\ ack \\ time",
+        "f_code": "G( (interrupt_code_arriving) --> F (interrupt_ack_generated) ) and t <= max_interrupt_ack_time",
+        "translation": "self",
+        "reasoning": "bounded diamond"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 3015,
+    "status": "OK",
+    "text": "If the host system is too slow in sending an interrupt acknowledgement after a corresponding interrupt code has been received, i.e. the interrupt acknowledgement code is sent after the corresponding interrupt time-out timer in the routing switches has expired, the interrupt acknowledgement code is discarded by the first router.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "yes",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "\\Box((interrupt \\ code \\ received) \\to \\newline (\\neg \\Diamond_{(0,t)} (interrupt \\ ack \\ received) \\newline \\to (Discard \\ interrupt \\ ack \\ code))), \\newline t = corresponding \\ interrupt \\ time-out",
+        "f_code": "G((interrupt_code_received) --> ((not F(interrupt_ack_received)) --> (Discard_interrupt_ack_code))) and t == corresponding_interrupt_timeout",
+        "translation": "self",
+        "reasoning": "bounded diamond"
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 4001,
+    "status": "OK",
+    "text": "After a reset or disconnect (see clause 5.4.8) an output port shall start operating at a data signalling rate of 10 ±1 Mb/s.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "\\Box((reset \\vee disconnect)\\to \\nex ( \\ 9\\leq S_{data} (t)\\leq 11))",
+        "f_code": "G( (reset or disconnect) --> X(S_data_t >= 9 and S_data_t <= 11) )",
+        "translation": "self",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 4002,
+    "status": "OK",
+    "text": "The SpaceWire output port shall operate at 10 ±1 Mb/s until set to operate at a different data signalling rate.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "\\Box((\\ 9\\leq S_{data} (t)\\leq 11) \\ \\until \\ (set \\ different \\ rate))",
+        "f_code": "G( ((S_data_t >= 9) and (S_data_t <= 11)) U (set_different_rate))",
+        "translation": "self",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 4003,
+    "status": "OK",
+    "text": "Once in the Run state it is possible to change the output port data signalling rate from the initial data signalling rate to the intended operating data signalling rate",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "\\Box((Run \\ state) \\to \\newline ( S_{data}(t) {:=} |x| \\vee S_{data}(t) := |y|) \\wedge \\neg(S_{data}(t) {:=} |x| \\wedge S_{data}(t) {:=} |y|)), \\newline x:=initial \\ data \\ signaling \\ rate \\newline y:=intended \\ data \\ signaling \\ rate",
+        "f_code": "G( (Run_state) --> (( (S_data_t == abs_x or S_data_t == abs_y) and (not (S_data_t == abs_x and S_data_t == abs_y)) ) and (x == initial_data_signaling_rate and y == intended_data_signaling_rate)))",
+        "translation": "self",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 5001,
+    "status": "OK",
+    "text": "Received characters and control codes shall be passed to the data link layer in the order in which they are received.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box (\\bigwedge_{j=1} ^{n} \\bigwedge_{i=1} ^{n} (Receive_i \\to  \\nex \\Diamond Receive_j) \\to (Send_i \\wedge \\nex Send_j)), \\newline n = number\\ of\\ characters",
+        "f_code": "G( (receive_i --> X(F(receive_j))) --> (send_i and X(send_j)) )",
+        "translation": "self",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  },
+  {
+    "id": 5002,
+    "status": "OK",
+    "text": "If the host system tries to send an interrupt acknowledgement too soon after a corresponding interrupt code has been received, i.e. before the interrupt code has propagated across the entire network, the result is indeterminate for that specific interrupt. The new interrupt acknowledgement code that the node sends can either be discarded by a router, or repeatedly propagated through the network if the network has circular connections.",
+    "logics": [
+      {
+        "type": "INV",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "LTL",
+        "f_latex": "\\Box\\big( ( (corresponding \\ interrupt \\ code \\ received) \\newline \\to \\nex \\neg\\big(\\neg (send \\ interrupt \\ acknowledgement) \\ \\until (interrupt \\ code \\ propagated))\\big) \\to (\\Box (new \\ interrupt \\ code \\ discard) \\vee \\Box (\\Diamond (new \\ interrupt \\ code \\ propagated))))",
+        "f_code": "G(((corr_interr_code_received) --> X( not( not(send_interr_ack) U(interr_code_prop)))) --> (G(new_interr_code_disc) and G(F(new_interr_code_prop))))",
+        "translation": "self",
+        "reasoning": ""
+      },
+      {
+        "type": "MTLb",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "no",
+        "reasoning": ""
+      },
+      {
+        "type": "STL",
+        "f_latex": "",
+        "f_code": "",
+        "translation": "depends",
+        "reasoning": ""
+      }
+    ]
+  }
+]
