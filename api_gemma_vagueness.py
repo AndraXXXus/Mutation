@@ -188,8 +188,7 @@ def semantically_equivalent(formula_a: str, formula_b: str):
         None  -> syntax error, exclude from accuracy
     """
     try:
-        print(formula_a)
-        print(      formula_b)
+
         f_a = spot.formula(formula_a)
         f_b = spot.formula(formula_b)
 
