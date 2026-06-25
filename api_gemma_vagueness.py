@@ -238,17 +238,15 @@ import time
 
 for file_inp in os.listdir(file_input):
 
+    df = pd.read_csv(file_input+file_inp, sep=',')
+    df['Index'] = df.index  
+
     for temp in [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]: #
         print(f"Temperature: {temp}")
 
 
-        df = pd.read_csv(file_input+file_inp, sep=',')
-        df['Index'] = df.index  
-        dataset = []    
-
-        
-
         for prompt in prompts:
+            dataset = []    
             output = []
             model_filename = model.replace("/","_")
             index_set = set()
