@@ -1,10 +1,15 @@
+#from openai import OpenAI
+#client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
+# --- without thinking (fast) ---
+#resp = client.chat.completions.create(model="Qwen/Qwen3.5-27B",messages=[{"role": "user", "content": "Write a sentence about LLMs"}],temperature=0.0,max_tokens=64)
+#print("NO THINKING:")
+#print(resp.choices[0].message.content)
 from openai import OpenAI
 client = OpenAI(base_url="http://127.0.0.1:8001/v1",api_key="dummy",)
 # --- without thinking (fast) ---
-resp = client.chat.completions.create(model="Qwen/Qwen3.5-27B",messages=[{"role": "user", "content": "Write a sentence about LLMs"}],temperature=0.0,max_tokens=64)
+resp = client.chat.completions.create(model="google/gemma-4-31B-it",messages=[{"role": "user", "content": "Write a sentence about LLMs"}],temperature=0.0,max_tokens=64)
 print("NO THINKING:")
 print(resp.choices[0].message.content)
-
 
 import argparse
 import csv
@@ -132,7 +137,7 @@ def normalize_formula(text: str) -> str:
     return lines[0] if lines else ""
 
 
-def ask_chatgpt_gemma(client: OpenAI, model: str, prompt: str, requirement: str, atomic_proposition: str) -> str:
+def ask_chatgpt(client: OpenAI, model: str, prompt: str, requirement: str, atomic_proposition: str) -> str:
 
     # --- without thinking (fast) ---
     response = client.chat.completions.create(
@@ -152,7 +157,7 @@ def ask_chatgpt_gemma(client: OpenAI, model: str, prompt: str, requirement: str,
     return normalize_formula(response.choices[0].message.content or "")
 
 
-def ask_chatgpt(client: OpenAI, model: str, prompt: str, requirement: str, atomic_proposition: str) -> str:
+def ask_chatgpt_qwen(client: OpenAI, model: str, prompt: str, requirement: str, atomic_proposition: str) -> str:
 
     # --- without thinking (fast) ---
     content = globals()[prompt].format(
@@ -231,7 +236,7 @@ prompts = ["BASIC", "ARTEMIS" , "ADARULE"]
 
 
 file_input="HumanDataProcessed/"
-model = "Qwen/Qwen3.5-27B"
+model = "google/gemma-4-31B-it"
 
 
 import time
