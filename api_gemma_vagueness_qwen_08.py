@@ -236,7 +236,7 @@ prompts = ["BASIC", "ARTEMIS" , "ADARULE"]
 
 
 file_input="HumanDataProcessed/"
-model = "google/gemma-4-31B-it"
+model = "Qwen/Qwen3.5-27B"
 
 
 import time
