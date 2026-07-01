@@ -167,7 +167,7 @@ def ask_chatgpt_qwen(client: OpenAI, model: str, prompt: str, requirement: str, 
     
     response = client.chat.completions.create(
         model=model,
-        temperature=0,
+        temperature=temp,
         max_tokens=64,
         messages=[
             {
@@ -246,7 +246,7 @@ for file_inp in os.listdir(file_input):
     df = pd.read_csv(file_input+file_inp, sep=',')
     df['Index'] = df.index  
 
-    for temp in [ 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]: #
+    for temp in [ 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]: #
         print(f"Temperature: {temp}")
 
 
