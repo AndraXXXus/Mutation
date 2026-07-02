@@ -9699,3 +9699,103 @@ BASIC,91,"VentilationOff: In ventilation off, the machine does not ventilate, th
 BASIC,91,"VentilationOff: In ventilation off, the machine does not ventilate, the in valve is closed and the out valve is opened.",G(StandbyMode -> G(((!ventilating & inValveClose) & outValveOpen))),VentilationOff -> (!ventilating & inValveClose & outValveOpen),False
 BASIC,91,"VentilationOff: In ventilation off, the machine does not ventilate, the in valve is closed and the out valve is opened.",G(StandbyMode -> G(((!ventilating & inValveClose) & outValveOpen))),VentilationOff -> (!ventilating & inValveClose & outValveOpen),False
 BASIC,91,"VentilationOff: In ventilation off, the machine does not ventilate, the in valve is closed and the out valve is opened.",G(StandbyMode -> G(((!ventilating & inValveClose) & outValveOpen))),VentilationOff -> (!ventilating & inValveClose & outValveOpen),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits & !state_is_FAULT -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X(state_is_FAULT)),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G(limits -> X state_is_FAULT),False
+BASIC,1,The sensor shall change states from NOMINAL to FAULT when limits are exceeded.,!limits U (limits & F(state_is_FAULT)),G (limits -> X state_is_FAULT),False
