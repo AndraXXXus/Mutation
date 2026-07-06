@@ -276,14 +276,14 @@ for file_inp in os.listdir(file_input):
                     reader = csv.DictReader(f, fieldnames=my_headers)
                     for row in reader:
                         index= row['Index']
-                        already_processed.add(index)
+                        already_processed.add(int(index))
 
             for ind, row in df.iterrows():
                 requirement = str(row.iloc[0])
                 ground_truth = str(row.iloc[1]).strip()
                 atomic_proposition = str(row.iloc[2]).strip()
 
-                if ind not in already_processed:
+                if int(ind) not in already_processed:
                     dataset.append((ind,requirement, ground_truth, atomic_proposition))
 
             print("start",len(dataset), dataset[0])
