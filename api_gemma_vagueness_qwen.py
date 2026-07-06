@@ -246,7 +246,7 @@ for file_inp in os.listdir(file_input):
     df = pd.read_csv(file_input+file_inp, sep=',')
     df['Index'] = df.index  
 
-    for temp in [0.3 ]: #
+    for temp in [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]: #
         print(f"Temperature: {temp}")
 
 
@@ -268,13 +268,22 @@ for file_inp in os.listdir(file_input):
                 
 
 
+            already_processed = set()
+            my_headers = ['PROMPTTYPE',"Index", "Requirement", "Ground Truth", "Atomic Proposition", "Original Response", "Response", "Equivalent"]
+            with open(full_output_file, "r", fieldnames=my_headers, encoding="utf-8") as f:
+                
+                reader = csv.DictReader(f)
+                for row in reader:
+                    index= row['Index']
+                    already_processed.add(index)
 
             for ind, row in df.iterrows():
                 requirement = str(row.iloc[0])
                 ground_truth = str(row.iloc[1]).strip()
                 atomic_proposition = str(row.iloc[2]).strip()
 
-                dataset.append((ind,requirement, ground_truth, atomic_proposition))
+                if ind not in already_processed:
+                    dataset.append((ind,requirement, ground_truth, atomic_proposition))
 
             print("start",len(dataset), dataset[0])
             for ind, requirement, ground_truth, atomic_proposition in dataset:
