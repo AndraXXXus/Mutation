@@ -269,13 +269,14 @@ for file_inp in os.listdir(file_input):
 
 
             already_processed = set()
-            my_headers = ['PROMPTTYPE',"Index", "Requirement", "Ground Truth", "Atomic Proposition", "Original Response", "Response", "Equivalent"]
-            with open(full_output_file, "r", encoding="utf-8") as f:
-                
-                reader = csv.DictReader(f, fieldnames=my_headers)
-                for row in reader:
-                    index= row['Index']
-                    already_processed.add(index)
+            if os.path.exists(full_output_file):
+                my_headers = ['PROMPTTYPE',"Index", "Requirement", "Ground Truth", "Atomic Proposition", "Original Response", "Response", "Equivalent"]
+                with open(full_output_file, "r", encoding="utf-8") as f:
+                    
+                    reader = csv.DictReader(f, fieldnames=my_headers)
+                    for row in reader:
+                        index= row['Index']
+                        already_processed.add(index)
 
             for ind, row in df.iterrows():
                 requirement = str(row.iloc[0])
