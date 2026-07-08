@@ -34,8 +34,8 @@ G!(prop | prop) | F((prop | prop) & Fprop),151
 G!prop | F(prop & F(prop | prop)),144
 G!(prop & prop) | F(prop & prop & Fprop),136
 G!(prop | prop),135
-G!prop | F(prop & F(prop & prop)),134
 G!(prop & prop),134
+G!prop | F(prop & F(prop & prop)),134
 G((prop | prop) -> Gprop),27
 G(prop -> G(prop | prop)),26
 G(prop -> G(prop & prop)),22
