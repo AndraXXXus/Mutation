@@ -237,7 +237,7 @@ prompts = ["BASIC", "ARTEMIS" , "ADARULE"]
 
 file_input="HumanDataProcessed/"
 model = "Qwen/Qwen3.5-27B"
-
+model_filename = model.replace("/","_")
 
 import time
 
@@ -253,7 +253,7 @@ for file_inp in os.listdir(file_input):
         for prompt in prompts:
             dataset = []    
             output = []
-            model_filename = model.replace("/","_")
+            
             index_set = set()
 
             output_file = "out_vagueness_human/"+f"data_{file_inp}_{model_filename}_{prompt}_temp{int(temp*100)}.csv"
@@ -283,7 +283,7 @@ for file_inp in os.listdir(file_input):
                 ground_truth = str(row.iloc[1]).strip()
                 atomic_proposition = str(row.iloc[2]).strip()
 
-                if int(ind) not in already_processed:
+                if len(already_processed) > 0 and int(ind) not in already_processed:
                     dataset.append((ind,requirement, ground_truth, atomic_proposition))
 
             print("start",len(dataset), dataset[0])
@@ -294,7 +294,7 @@ for file_inp in os.listdir(file_input):
                 correct = 0
                 rows = []
                 print(ind, requirement, ground_truth, atomic_proposition)
-                for retake in range(100):
+                for retake in range(10):
                     print(retake)
                     client = OpenAI(base_url="http://127.0.0.1:8000/v1",api_key="dummy",)
                     

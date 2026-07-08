@@ -25,8 +25,8 @@ prop U GFprop,250
 F(prop | prop),249
 GFprop | GFprop,248
 GFprop | Xprop,248
-prop U prop,244
 G!(prop & prop) & G(prop | prop),244
+prop U prop,244
 G(prop -> XXXprop),242
 (prop U prop) | Gprop,233
 G(prop -> Xprop),212
