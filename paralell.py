@@ -232,6 +232,7 @@ def run_medium_duration_script(task):
     client = OpenAI(base_url="http://127.0.0.1:8000/v1", api_key="dummy")
 
     for retake in range(20):
+        time.sleep(random.uniform(0.5, 1.5))  # Simulate processing time
         model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition, temp)
         og_model_response = model_response
         
