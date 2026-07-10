@@ -22,6 +22,7 @@ def check_experiment_results(db_path="experiment_results.db"):
         # Print the counts
         print(f"Total rows in DB: {total_rows}")
         print(f"Total 'COMPLETED' rows: {completed_rows}")
+        print(f" 'COMPLETED' %: {completed_rows / total_rows * 100:.2f}%")
         print("-" * 40)
 
         # 3. Fetch and print a random row where status is 'COMPLETED'
