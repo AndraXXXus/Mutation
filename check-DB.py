@@ -25,20 +25,6 @@ def check_experiment_results(db_path="experiment_results.db"):
         print(f" 'COMPLETED' %: {completed_rows / total_rows * 100:.2f}%")
         print("-" * 40)
 
-        # 3. Fetch and print a random row where status is 'COMPLETED'
-        # ORDER BY RANDOM() LIMIT 1 is efficient enough for typical local databases
-        cursor.execute(
-            "SELECT * FROM experiments WHERE status = 'COMPLETED' ORDER BY RANDOM() LIMIT 1"
-        )
-        random_row = cursor.fetchone()
-
-        if random_row:
-            print("Random 'COMPLETED' Row:")
-            # Loop through and print all column keys and values neatly
-            for key in random_row.keys():
-                print(f"  {key}: {random_row[key]}")
-        else:
-            print("No 'COMPLETED' rows found to display.")
 
     except sqlite3.Error as e:
         print(f"An error occurred: {e}")
@@ -71,20 +57,6 @@ def check_experiment_results2(db_path="experiment_results.db"):
         print(f" 'PENDING' %: {completed_rows / total_rows * 100:.2f}%")
         print("-" * 40)
 
-        # 3. Fetch and print a random row where status is 'COMPLETED'
-        # ORDER BY RANDOM() LIMIT 1 is efficient enough for typical local databases
-        cursor.execute(
-            "SELECT * FROM experiments WHERE status = 'PENDING' ORDER BY RANDOM() LIMIT 1"
-        )
-        random_row = cursor.fetchone()
-
-        if random_row:
-            print("Random 'PENDING' Row:")
-            # Loop through and print all column keys and values neatly
-            for key in random_row.keys():
-                print(f"  {key}: {random_row[key]}")
-        else:
-            print("No 'PENDING' rows found to display.")
 
     except sqlite3.Error as e:
         print(f"An error occurred: {e}")
