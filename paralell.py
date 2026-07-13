@@ -266,7 +266,7 @@ def worker_process(worker_id):
             
             cursor = conn.execute('''
                 SELECT * FROM experiments 
-                WHERE status = 'PENDING' 
+                WHERE status = 'PENDING' OR status = 'FAILED'
                 LIMIT 1
             ''')
             task = cursor.fetchone()

@@ -51,6 +51,18 @@ def check_experiment_results2(db_path="experiment_results.db"):
         )
         completed_rows = cursor.fetchone()[0]
 
+        print("Status breakdown:")
+        cursor.execute(
+            "SELECT status, COUNT(*) as count FROM experiments GROUP BY status"
+        )
+        status_counts = cursor.fetchall()
+
+        for row in status_counts:
+            # If status is NULL/None, display it clearly
+            status_name = row["status"] if row["status"] is not None else "NULL"
+            print(f"  {status_name}: {row['count']}")
+            
+        print("-" * 40)
         # Print the counts
         print(f"Total rows in DB: {total_rows}")
         print(f"Total 'PENDING' rows: {completed_rows}")
