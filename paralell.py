@@ -105,7 +105,7 @@ So the final LTL translation is: [LTL formula].FINISH
 
 model = "Qwen/Qwen3.5-27B"
 DB_PATH = "experiment_results.db"
-STALL_TIMEOUT_SECONDS = 3600  
+STALL_TIMEOUT_SECONDS = 600  
 
 def normalize_formula(text: str) -> str:
     text = text.strip()
@@ -152,7 +152,7 @@ def semantically_equivalent(formula_a: str, formula_b: str):
 # ==========================================
 
 def get_db_connection():
-    conn = sqlite3.connect(DB_PATH, isolation_level=None, timeout=5.0)
+    conn = sqlite3.connect(DB_PATH, isolation_level=None, timeout=60.0)
     conn.row_factory = sqlite3.Row
     conn.execute('PRAGMA journal_mode=WAL') 
     return conn
