@@ -340,7 +340,7 @@ if __name__ == '__main__':
     seed_experiments(data_points, prompt_types, temperatures)
     recover_stalled_tasks()
     
-    num_cores = 20
+    num_cores = 10
     print(f"🚀 Spawning {num_cores} worker processes...")
     
     processes = []
