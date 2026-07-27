@@ -197,7 +197,7 @@ prompt_types = ["BASIC", "ARTEMIS", "ADARULE"]
 temperatures = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
 test_data = data_points[111]
 
-
+print(test_data)
 for prompt in prompt_types:
     for temp in temperatures:
         task = {}
@@ -211,5 +211,5 @@ for prompt in prompt_types:
 
         out = run_medium_duration_script(task)
 
-        print([x['Response'] for x in out])  
+        print(prompt,temp,[x['Response'] for x in out])  
         
