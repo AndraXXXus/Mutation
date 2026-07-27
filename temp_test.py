@@ -203,11 +203,11 @@ for prompt in prompt_types:
         task = {}
 
         task['experiment_index'] = test_data['experiment_index']
-        task['original_NL'] = test_data['original_NL']
-        task['Spot_LTL'] = test_data['Spot_LTL']
+        task['original_NL'] = test_data['original NL']
+        task['Spot_LTL'] = test_data['Spot LTL']
         task['APs'] = test_data['APs']
-        task['prompt_type'] = test_data['prompt_type']
-        task['temperature'] = test_data['temperature']
+        task['prompt_type'] = prompt
+        task['temperature'] = temp
 
         out = run_medium_duration_script(task)
 
