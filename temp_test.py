@@ -214,6 +214,6 @@ for prompt in prompt_types:
         task['temperature'] = temp
 
         out = run_medium_duration_script(task)
-
-        print(prompt,temp,[x['Response'] for x in out])  
+        out2 = [x['Response'] for x in out]
+        print(prompt,temp,len(set(out2)),set(out2),out2)  
         
