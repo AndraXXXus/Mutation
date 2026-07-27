@@ -125,10 +125,13 @@ def ask_chatgpt(client: OpenAI, model: str, prompt: str, requirement: str, atomi
     response = client.chat.completions.create(
         model=model,
         temperature=temperature,
-        do_sample=True,
         max_tokens=2048,
         messages=[{"role": "user", "content": content}],
-        extra_body={"chat_template_kwargs": {"enable_thinking": False}},
+        extra_body={
+            "do_sample": True,  # Passed directly to vLLM engine
+            "top_k": -1,        # Prevents greedy token filtering on vLLM side
+            "chat_template_kwargs": {"enable_thinking": False}
+        },
     )
     return normalize_formula(response.choices[0].message.content or "")
 
