@@ -133,7 +133,7 @@ def ask_chatgpt_QWEN(client: OpenAI, model: str, prompt: str, requirement: str, 
     )
     return normalize_formula(response.choices[0].message.content or "")
 
-def ask_chatgpt_gemma(client: OpenAI, model: str, prompt: str, requirement: str, atomic_proposition: str) -> str:
+def ask_chatgpt_gemma(client: OpenAI, model: str, prompt: str, requirement: str, atomic_proposition: str, temperature: float) -> str:
 
     # --- without thinking (fast) ---
     response = client.chat.completions.create(
