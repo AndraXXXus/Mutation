@@ -1,2 +1,8 @@
 tempOut/
 experiment_results.db
+flattened_results.csv
+experiment_results_20260804.db
+flattened_results_with_ambiguity.csv
+recovered_results.db
+*.db
+*.csv

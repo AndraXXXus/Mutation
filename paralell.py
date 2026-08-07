@@ -103,8 +103,10 @@ Please response in the following format, and replace the '[LTL formula]' with th
 So the final LTL translation is: [LTL formula].FINISH
 """
 
-model = "Qwen/Qwen3.5-27B"
-DB_PATH = "experiment_results.db"
+model = "google/gemma-4-31B-it"
+
+DB_PATH = "experiment_results_gema.db"
+
 STALL_TIMEOUT_SECONDS = 600  
 
 def normalize_formula(text: str) -> str:
@@ -116,7 +118,7 @@ def normalize_formula(text: str) -> str:
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     return lines[0] if lines else ""
 
-def ask_chatgpt(client: OpenAI, model: str, prompt: str, requirement: str, atomic_proposition: str, temperature: float) -> str:
+def ask_chatgpt_QWEN(client: OpenAI, model: str, prompt: str, requirement: str, atomic_proposition: str, temperature: float) -> str:
     content = globals()[prompt].format(
         requirement=requirement,
         atomic_proposition=atomic_proposition,
@@ -129,6 +131,43 @@ def ask_chatgpt(client: OpenAI, model: str, prompt: str, requirement: str, atomi
         messages=[{"role": "user", "content": content}],
         extra_body={"chat_template_kwargs": {"enable_thinking": False}},
     )
+    return normalize_formula(response.choices[0].message.content or "")
+
+def ask_chatgpt_gemma(client: OpenAI, model: str, prompt: str, requirement: str, atomic_proposition: str) -> str:
+
+    # --- without thinking (fast) ---
+    response = client.chat.completions.create(
+        model=model,
+        temperature=0,
+        messages=[
+            {
+                "role": "user",
+                "content": globals()[prompt].format(
+                    requirement=requirement,
+                    atomic_proposition=atomic_proposition,
+                ) + INSTRUCTION,
+            }
+        ],
+    )
+
+    return normalize_formula(response.choices[0].message.content or "")
+
+def ask_chatgpt_API(client: OpenAI, prompt: str, requirement: str, atomic_proposition: str) -> str:
+
+    response = client.chat.completions.create(
+        model="gpt-5.4-mini",
+        temperature=0,
+        messages=[
+            {
+                "role": "user",
+                "content": globals()[prompt].format(
+                    requirement=requirement,
+                    atomic_proposition=atomic_proposition,
+                ) + INSTRUCTION,
+            }
+        ],
+    )
+
     return normalize_formula(response.choices[0].message.content or "")
 
 def semantically_equivalent(formula_a: str, formula_b: str):
@@ -233,7 +272,7 @@ def run_medium_duration_script(task):
 
     for retake in range(20):
         time.sleep(random.uniform(0.5, 1.5))  # Simulate processing time
-        model_response = ask_chatgpt(client, model, prompt, requirement, atomic_proposition, temp)
+        model_response = ask_chatgpt_gemma(client, model, prompt, requirement, atomic_proposition, temp)
         og_model_response = model_response
         
         if prompt == "ADARULE":
@@ -334,7 +373,7 @@ if __name__ == '__main__':
             data_points.append(row)
 
     prompt_types = ["BASIC", "ARTEMIS", "ADARULE"]
-    temperatures = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+    temperatures = [0.7]
     
     print("Initializing Database Seeding...")
     seed_experiments(data_points, prompt_types, temperatures)
